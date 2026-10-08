@@ -1,3 +1,13 @@
+<!-- DAEMEONAI-AI-DISCLOSURE -->
+## AI disclosure
+
+This project is developed and maintained with **AI assistance** as part of DaemeonAI.
+
+AI systems may generate, modify, analyse, test, or assist with documentation and source code. Changes are reviewed through automated safety, policy, testing, and secret-scanning checks before publication.
+
+**AI-assisted project — human-controlled publication.**
+<!-- /DAEMEONAI-AI-DISCLOSURE -->
+
 # DaemeonAI OpenCode -avustajasovellus
 
 Tämän projektin tarkoitus on tarjota DaemeonAI:n yhteyteen hallittu OpenCode-avustajasovellus, joka voi käyttää Debian root -ympäristöä tarvittaessa.
