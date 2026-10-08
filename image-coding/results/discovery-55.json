@@ -1,0 +1,25 @@
+{
+  "source": {
+    "filename": "60872.jpg",
+    "size_bytes": 22150,
+    "modified": "2026-09-27T20:50:26.050000"
+  },
+  "analysis": {
+    "summary": "Photograph of a printed Finnish legal document, apparently describing criminal charges or case information. The page includes sections referring to drug-related offenses and procedural/legal details. No software, device interface, source code, or technical development content is visible.",
+    "visual_type": "Photographed printed legal document in Finnish",
+    "technical_clues": [],
+    "visible_text": [
+      "2. HUUMAUSAINERIKOS",
+      "3. TÖRKEÄ HUUMAUSAINERIKOS",
+      "Asianomistaja",
+      "Rikoksesta epäilty",
+      "Kirjalliset todisteet",
+      "Helsinki",
+      "Finnish legal references and dates"
+    ],
+    "possible_software_task": "No apparent software task; the image could only suggest document digitization, OCR, translation, or legal-document classification.",
+    "possible_language": "Finnish",
+    "potential": 0.02,
+    "needs_more_investigation": false
+  }
+}

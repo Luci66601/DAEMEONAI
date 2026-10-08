@@ -1,0 +1,32 @@
+{
+  "source": {
+    "filename": "61210.jpg",
+    "size_bytes": 54254,
+    "modified": "2026-09-27T20:50:26.320000"
+  },
+  "analysis": {
+    "summary": "A cropped Finnish legal document page containing procedural information, a signature, and sentencing-related text. It appears to be an official court or prosecution document rather than a software interface.",
+    "visual_type": "Scanned or photographed Finnish legal document",
+    "technical_clues": [
+      "Structured document with bold section headings and aligned text fields",
+      "Could serve as input for OCR, document classification, information extraction, or legal-document summarization",
+      "Contains personal names, dates, times, legal status, and sentencing information"
+    ],
+    "visible_text": [
+      "LISÄTIET... (likely LISÄTIETOJA)",
+      "Vapaudenmenetykset",
+      "RAMSDAHL JOONA LARS-VALDEMAR",
+      "Vastaaja on ollut tämän asian vuoksi välillä vapauttaan 30.09.2024 klo 10.05 - 06.10.2024 klo 13.18 eli 6 päivää vastaavan ajan",
+      "Seuraamuskannanotto",
+      "Ramsfahl on tuomittava vähintään 2 vuoden pituiseen ehdottomaan vankeusrangaistukseen.",
+      "Allekirjoitus",
+      "Johanna Tauriaien",
+      "aluesyyttäjä",
+      "Luettelo haastehakemuksen yhteydessä tuomioistuimelle"
+    ],
+    "possible_software_task": "Build an OCR and legal-document analysis workflow that detects Finnish section headings, extracts names, dates, durations, signatures, and sentencing recommendations while preserving document structure.",
+    "possible_language": "Finnish; potential implementation languages include Python or another language with OCR and document-processing libraries, but no programming language is visible.",
+    "potential": 0.56,
+    "needs_more_investigation": true
+  }
+}

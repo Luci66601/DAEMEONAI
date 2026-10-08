@@ -1,0 +1,38 @@
+{
+  "source": {
+    "filename": "Screenshot_20260906_202353_com.android.chrome.jpg",
+    "size_bytes": 360225,
+    "modified": "2026-09-27T20:50:25.270000"
+  },
+  "analysis": {
+    "summary": "Mobile Chrome screenshot of a Finnish patient-record webpage showing an appointment date, service unit, and a list of psychiatric and substance-use diagnoses.",
+    "visual_type": "Android mobile browser screenshot of a medical patient portal",
+    "technical_clues": [
+      "Android status bar and navigation controls are visible",
+      "Content appears to be a vertically scrolling web page",
+      "Structured diagnosis entries use ICD-10-style codes and Finnish descriptions",
+      "The page includes a 'Potilaskertomus' (patient record) section",
+      "Sensitive personal health information is displayed"
+    ],
+    "visible_text": [
+      "Ajankohta 31.8.2026",
+      "Palveluyksikkö Varha",
+      "Riippuvuuspsykiatria",
+      "Diagnoosit",
+      "Z00.4 Muualla luokittamaton yleinen psykiatrinen tarkastus",
+      "F31.9 Määrittämätön kaksisuuntainen mielialahäiriö",
+      "F12.1 Kannabinoidien haitallinen käyttö",
+      "F10.1 Alkoholin haitallinen käyttö",
+      "F11.1 Opioidien haitallinen käyttö",
+      "F17.29 Tupakan käytön aiheuttama tarkemmin määrittämätön riippuvuusoireyhtymä",
+      "F13.1 Rauhoittavien lääkkeiden ja unilääkkeiden haitallinen käyttö",
+      "F15.1 Muun piristeen haitallinen käyttö",
+      "F29 Määrittämätön ei-elimellinen psykoottinen häiriö",
+      "Potilaskertomus"
+    ],
+    "possible_software_task": "OCR and structure extraction for Finnish medical records, including recognition of ICD-10 codes, translation or normalization of diagnosis descriptions, and export into a privacy-preserving clinical data format.",
+    "possible_language": "Finnish; ICD-10 diagnostic coding",
+    "potential": 0.78,
+    "needs_more_investigation": true
+  }
+}

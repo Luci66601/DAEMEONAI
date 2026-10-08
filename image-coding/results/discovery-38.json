@@ -1,0 +1,31 @@
+{
+  "source": {
+    "filename": "57576.jpg",
+    "size_bytes": 41851,
+    "modified": "2026-09-27T20:50:25.560000"
+  },
+  "analysis": {
+    "summary": "Close-up photograph of a dietary supplement bottle label containing Finnish and Swedish text, dosage guidance, and an ingredient table.",
+    "visual_type": "Product packaging label / supplement information",
+    "technical_clues": [
+      "Multilingual Finnish-Swedish label",
+      "Structured recommended daily dose section",
+      "Ingredient and quantity table",
+      "Potential OCR challenge due to curved packaging, blur, glare, and partial obstruction"
+    ],
+    "visible_text": [
+      "Magnesiumkapseli / Magnesiumkapsel",
+      "TÄYDENNETUOTE",
+      "Suositeltu vuorokausiannos / Rekommenderad ...",
+      "1-4 kapselia / 1-4 kapslar",
+      "Magnesium",
+      "L-teaniini / L-teanin",
+      "L-tryptofaani / L-tryptofan",
+      "Kärsimyskukkauute / Extrakt av passionsblomma"
+    ],
+    "possible_software_task": "Multilingual OCR and structured extraction of supplement ingredients, dosages, and usage instructions from product-label photographs.",
+    "possible_language": "Finnish and Swedish text; potential implementation language cannot be determined from the image.",
+    "potential": 0.68,
+    "needs_more_investigation": true
+  }
+}

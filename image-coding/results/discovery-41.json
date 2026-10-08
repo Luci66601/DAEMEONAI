@@ -1,0 +1,38 @@
+{
+  "source": {
+    "filename": "66734.jpg",
+    "size_bytes": 29305,
+    "modified": "2026-09-27T20:50:25.650000"
+  },
+  "analysis": {
+    "summary": "Android WhatsApp -keskustelun kuvakaappaus kontaktin Riku kanssa. Näkyvissä on arkinen viestinvaihto, puhelu-ilmoitus ja aikatauluun liittyviä viestejä, mutta ei selkeää ohjelmisto- tai kehitystehtävää.",
+    "visual_type": "Android WhatsApp -keskustelun kuvakaappaus",
+    "technical_clues": [
+      "Android-käyttöliittymä",
+      "WhatsApp-chat",
+      "Viestit, puhelu- ja videopuhelupainikkeet",
+      "Viestien aikaleimat ja lähetyksen tilamerkinnät",
+      "Tekstinsyöttökenttä, liitetiedosto- ja kamerakuvakkeet",
+      "Akun, verkon ja kellon tilapalkki"
+    ],
+    "visible_text": [
+      "Riku",
+      "siitä sais konei kans",
+      "Jos mä tuunki sul kinetin kuorissaan et ne toimii aina",
+      "Äänipuhelu",
+      "1 min",
+      "40mg?",
+      "Ju",
+      "Mitä maksaa?",
+      "15 mut sul 20 ni tästä kerrasta ei tuu yhtää ...",
+      "Käy",
+      "Onk abot aika-arviota",
+      "20minsaa ku on päässy kotiin vaa hakemaa muut kyytiä täl reissulta",
+      "Viesti"
+    ],
+    "possible_software_task": "Ei selvää ohjelmistotehtävää. Kuvasta voisi korkeintaan päätellä tarpeen viestien, aikataulujen tai puhelutietojen jäsentämiseen, mutta tämä ei käy ilmi teknisenä vaatimuksena.",
+    "possible_language": "Ei ohjelmointikieltä; käyttöliittymä on Android ja viestit ovat suomeksi.",
+    "potential": 0.05,
+    "needs_more_investigation": false
+  }
+}

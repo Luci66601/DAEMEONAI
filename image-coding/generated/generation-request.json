@@ -1,0 +1,10 @@
+{
+  "operation": "IMAGE_GENERATION",
+  "status": "PENDING_APPROVAL",
+  "human_approval_required": true,
+  "execution_allowed": false,
+  "write_allowed": false,
+  "payment_execution": false,
+  "output": "/data/data/com.termux/files/home/daemeonai/image-coding/generated/jpeg-20260927-213535.jpeg",
+  "prompt": "Create a compact technical visual representation of the useful information discovered by the DaemeonAI image-coding pipeline. Prefer a diagram, flowchart, UI mockup, or visual encoding when it represents the information more compactly than equivalent text/code. Do not include credentials, secrets, personal data, or executable instructions."
+}

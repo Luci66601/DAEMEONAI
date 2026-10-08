@@ -1,0 +1,17 @@
+{
+  "source": {
+    "filename": "60940.jpg",
+    "size_bytes": 839,
+    "modified": "2026-09-27T20:50:26.180000"
+  },
+  "analysis": {
+    "summary": "The image appears blank or contains no discernible visual content.",
+    "visual_type": "Blank or unreadable image",
+    "technical_clues": [],
+    "visible_text": [],
+    "possible_software_task": "No software-related task can be identified from the available image.",
+    "possible_language": "",
+    "potential": 0.0,
+    "needs_more_investigation": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": {
+    "filename": "64410.jpg",
+    "size_bytes": 13293,
+    "modified": "2026-09-27T20:50:26.430000"
+  },
+  "analysis": {
+    "summary": "Android-näkymässä on DaemeonAI-sovelluksen vahvistusdialogi, joka pyytää hyväksyntää API-testille ja ilmoittaa, ettei maksua lähetetä.",
+    "visual_type": "Androidin viimeksi käytettyjen sovellusten näkymä, jossa näkyy vahvistusdialogi",
+    "technical_clues": [
+      "DaemeonAI-sovelluksen kaksikielinen YES/KYLLÄ-vahvistus",
+      "Dialogi liittyy API-testaukseen",
+      "Tekstissä mainitaan maksun lähettämättä jättäminen, mikä viittaa turvalliseen testi- tai simulointitilaan",
+      "Taustalla näkyy Gemini-sovellus sekä terminaali- tai Termux-tyyppisiä näkymiä",
+      "Androidin käyttöliittymä ja navigointipainikkeet ovat näkyvissä"
+    ],
+    "visible_text": [
+      "Gemini",
+      "DaemeonAI – hyväksyntätesti",
+      "Paina YES / KYLLÄ.",
+      "Tämä on vain API-testi.",
+      "Maksua ei lähetetä.",
+      "NO",
+      "YES"
+    ],
+    "possible_software_task": "Toteuttaa Android-sovellukseen API-toiminnon vahvistusdialogi, jossa käyttäjä hyväksyy turvallisen testipyynnön ennen toiminnon jatkamista.",
+    "possible_language": "Ei pääteltävissä varmasti; käyttöliittymäteksti on suomeksi ja taustalla saattaa olla Termux- tai muu komentorivipohjainen kehitysympäristö.",
+    "potential": 0.88,
+    "needs_more_investigation": true
+  }
+}

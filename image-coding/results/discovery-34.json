@@ -1,0 +1,36 @@
+{
+  "source": {
+    "filename": "Screenshot_20260922_143808_com.facebook.katana.jpg",
+    "size_bytes": 705293,
+    "modified": "2026-09-27T20:50:25.410000"
+  },
+  "analysis": {
+    "summary": "Android screenshot of the Facebook mobile app showing the Finnish-language home feed. It contains a Finnish discussion post about alcohol or drug rehabilitation experiences and a sponsored Skin.Club advertisement.",
+    "visual_type": "Android Facebook social media feed screenshot",
+    "technical_clues": [
+      "Facebook Android application UI",
+      "Finnish localization",
+      "Mobile network and device status bar visible",
+      "Feed navigation icons for home, video, groups, notifications, search, and Messenger",
+      "Anonymous group post with reactions, comments, sharing, and dismissal controls",
+      "Sponsored advertisement labeled Skin.Club with an 'Elite Bot' promotion and 18+ marker"
+    ],
+    "visible_text": [
+      "facebook",
+      "Lisää kaveri",
+      "Poista",
+      "Näytä kaikki",
+      "Kysy mitä vaan - muut vast...",
+      "Nimetön jäsen · 1 pv",
+      "Oletko ollut alko- tai huumekat... millaisia hyviä ja huonoja kokemuksia sinulla on. Kyselen koska itse juuri pääsin pois, eikä ole ole kovin montaa positiivista asiaa kerrottavaksi vaikka niitäkin on. Oletko kohdannut mielivaltaista kohtelua tai epäasiallista käytöstä henkilökunnalta tai lääkinnällisiä ongelmia. Tai onko mennyt kaikki upeasti? Kaikki kokemukset tänne vaan. kiinnostaa oliko oma kokemukseni jotenkin poikkeuksellinen. kommentoin omat kokemukset sitten viestiketjuun.",
+      "Skin.Club",
+      "Sponsoroitu",
+      "Join the Skin.Club Elite Bot!",
+      "18+"
+    ],
+    "possible_software_task": "Extract, translate, classify, or moderate Finnish-language social media posts and advertisements from screenshots, including detection of sensitive substance-use and gambling-related content.",
+    "possible_language": "Finnish",
+    "potential": 0.72,
+    "needs_more_investigation": true
+  }
+}

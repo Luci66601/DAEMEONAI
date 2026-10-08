@@ -1,0 +1,758 @@
+[
+  {
+    "filename": "FB_IMG_1788704756779.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/FB_IMG_1788704756779.jpg"
+  },
+  {
+    "filename": "Screenshot_20260822_150204_com.openai.chatgpt.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260822_150204_com.openai.chatgpt.jpg"
+  },
+  {
+    "filename": "Screenshot_20260822_211354_com.huawei.android.launcher.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260822_211354_com.huawei.android.launcher.jpg"
+  },
+  {
+    "filename": "Screenshot_20260822_223240_com.huawei.android.launcher.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260822_223240_com.huawei.android.launcher.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_013040_com.termux.api.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_013040_com.termux.api.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_013216_com.termux.api.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_013216_com.termux.api.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_013346_com.google.android.googlequicksearchbox.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_013346_com.google.android.googlequicksearchbox.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_013812_com.termux.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_013812_com.termux.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_013942_com.google.android.googlequicksearchbox.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_013942_com.google.android.googlequicksearchbox.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_014415_com.termux.api.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_014415_com.termux.api.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_014431_com.termux.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_014431_com.termux.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_014452_com.termux.api.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_014452_com.termux.api.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_014513_com.huawei.android.launcher.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_014513_com.huawei.android.launcher.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_015501_com.termux.api.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_015501_com.termux.api.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_015611_com.termux.api.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_015611_com.termux.api.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_015614_com.termux.api.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_015614_com.termux.api.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_015616_com.termux.api.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_015616_com.termux.api.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_020954_com.openai.chatgpt.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_020954_com.openai.chatgpt.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_021240_com.termux.api.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_021240_com.termux.api.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_050137_com.termux.api.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_050137_com.termux.api.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_052838_com.google.android.googlequicksearchbox.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_052838_com.google.android.googlequicksearchbox.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_070132_com.android.chrome.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_070132_com.android.chrome.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_070133_com.android.chrome.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_070133_com.android.chrome.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_190646_com.android.chrome.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_190646_com.android.chrome.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_192333_com.termux.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_192333_com.termux.jpg"
+  },
+  {
+    "filename": "Screenshot_20260827_202510_com.huawei.android.launcher.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_202510_com.huawei.android.launcher.jpg"
+  },
+  {
+    "filename": "Screenshot_20260902_110722_com.facebook.katana.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260902_110722_com.facebook.katana.jpg"
+  },
+  {
+    "filename": "Screenshot_20260903_130415_com.facebook.katana.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260903_130415_com.facebook.katana.jpg"
+  },
+  {
+    "filename": "Screenshot_20260906_202353_com.android.chrome.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260906_202353_com.android.chrome.jpg"
+  },
+  {
+    "filename": "Screenshot_20260911_133851_com.whatsapp.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260911_133851_com.whatsapp.jpg"
+  },
+  {
+    "filename": "Screenshot_20260913_145041_com.facebook.katana.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260913_145041_com.facebook.katana.jpg"
+  },
+  {
+    "filename": "59436.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/59436.jpg"
+  },
+  {
+    "filename": "Screenshot_20260918_194003_com.whatsapp.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260918_194003_com.whatsapp.jpg"
+  },
+  {
+    "filename": "Screenshot_20260922_143808_com.facebook.katana.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260922_143808_com.facebook.katana.jpg"
+  },
+  {
+    "filename": "Screenshot_20260923_133610_com.android.chrome.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260923_133610_com.android.chrome.jpg"
+  },
+  {
+    "filename": "Screenshot_20260926_072032_com.android.deskclock.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260926_072032_com.android.deskclock.jpg"
+  },
+  {
+    "filename": "66052.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66052.jpg"
+  },
+  {
+    "filename": "57576.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/57576.jpg"
+  },
+  {
+    "filename": "60135.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60135.jpg"
+  },
+  {
+    "filename": "66344.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66344.jpg"
+  },
+  {
+    "filename": "66734.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66734.jpg"
+  },
+  {
+    "filename": "65134.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/65134.jpg"
+  },
+  {
+    "filename": "64971.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64971.jpg"
+  },
+  {
+    "filename": "64970.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64970.jpg"
+  },
+  {
+    "filename": "60136.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60136.jpg"
+  },
+  {
+    "filename": "64968.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64968.jpg"
+  },
+  {
+    "filename": "65913.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/65913.jpg"
+  },
+  {
+    "filename": "65901.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/65901.jpg"
+  },
+  {
+    "filename": "64903.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64903.jpg"
+  },
+  {
+    "filename": "66115.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66115.jpg"
+  },
+  {
+    "filename": "64906.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64906.jpg"
+  },
+  {
+    "filename": "64902.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64902.jpg"
+  },
+  {
+    "filename": "64445.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64445.jpg"
+  },
+  {
+    "filename": "60871.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60871.jpg"
+  },
+  {
+    "filename": "60872.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60872.jpg"
+  },
+  {
+    "filename": "60873.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60873.jpg"
+  },
+  {
+    "filename": "64444.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64444.jpg"
+  },
+  {
+    "filename": "64414.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64414.jpg"
+  },
+  {
+    "filename": "64428.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64428.jpg"
+  },
+  {
+    "filename": "60940.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60940.jpg"
+  },
+  {
+    "filename": "64429.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64429.jpg"
+  },
+  {
+    "filename": "64415.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64415.jpg"
+  },
+  {
+    "filename": "64412.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64412.jpg"
+  },
+  {
+    "filename": "61210.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/61210.jpg"
+  },
+  {
+    "filename": "61209.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/61209.jpg"
+  },
+  {
+    "filename": "64413.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64413.jpg"
+  },
+  {
+    "filename": "64410.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64410.jpg"
+  },
+  {
+    "filename": "64411.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64411.jpg"
+  },
+  {
+    "filename": "64399.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64399.jpg"
+  },
+  {
+    "filename": "66295.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66295.jpg"
+  },
+  {
+    "filename": "66117.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66117.jpg"
+  },
+  {
+    "filename": "65916.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/65916.jpg"
+  },
+  {
+    "filename": "66360.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66360.jpg"
+  },
+  {
+    "filename": "66349.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66349.jpg"
+  },
+  {
+    "filename": "66351.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66351.jpg"
+  },
+  {
+    "filename": "66350.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66350.jpg"
+  },
+  {
+    "filename": "66346.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66346.jpg"
+  },
+  {
+    "filename": "66347.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66347.jpg"
+  },
+  {
+    "filename": "66348.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66348.jpg"
+  },
+  {
+    "filename": "66534.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66534.jpg"
+  },
+  {
+    "filename": "66345.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66345.jpg"
+  },
+  {
+    "filename": "66892.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66892.jpg"
+  },
+  {
+    "filename": "63175.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/63175.jpg"
+  },
+  {
+    "filename": "IMG-20260824-WA0002.jpg",
+    "has_code": false,
+    "language": "",
+    "code": "",
+    "explanation": "",
+    "confidence": 0,
+    "source": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/IMG-20260824-WA0002.jpg"
+  }
+]

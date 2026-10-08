@@ -1,0 +1,1 @@
+Analyze this JPEG as a software-engineering input. Identify visible code, terminal output, UI, diagrams, errors, architecture, or other technical information. Return strict JSON with: summary, detected_errors, relevant_code, proposed_fix, files_to_inspect, tests_to_run, confidence. Do not invent information that is not visible.

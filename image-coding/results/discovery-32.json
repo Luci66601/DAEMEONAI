@@ -1,0 +1,32 @@
+{
+  "source": {
+    "filename": "59436.jpg",
+    "size_bytes": 29619,
+    "modified": "2026-09-27T20:50:25.500000"
+  },
+  "analysis": {
+    "summary": "Photograph of a Windows PowerShell/command-line session showing attempts to configure and activate Windows using slmgr.vbs and an external KMS server.",
+    "visual_type": "Windows terminal screenshot/photo",
+    "technical_clues": [
+      "PowerShell prompt at C:\\Windows\\System32",
+      "Use of slmgr and slmgr.vbs for Windows licensing operations",
+      "Commands include /ato, /skms, and /ipk",
+      "External KMS hostname is shown",
+      "A Windows product key is visible"
+    ],
+    "visible_text": [
+      "slmgr /ato",
+      "PS C:\\Windows\\System32>",
+      "cmd /c slmgr /ato",
+      "cmd /c slmgr /skms kms8.msguides.com",
+      "cmd /c slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX",
+      "slmgr.vbs /ato",
+      "slmgr.vbs /skms kms8.msguides.com",
+      "slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX"
+    ],
+    "possible_software_task": "Windows license activation or KMS configuration, potentially involving unauthorized activation methods.",
+    "possible_language": "Windows command shell and PowerShell commands invoking VBScript",
+    "potential": 0.72,
+    "needs_more_investigation": true
+  }
+}

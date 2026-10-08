@@ -1,0 +1,11 @@
+{
+  "operation": "IMAGE_GENERATION_WITH_CODE_FIX",
+  "status": "PENDING_APPROVAL",
+  "human_approval_required": true,
+  "execution_allowed": false,
+  "write_allowed": false,
+  "payment_execution": false,
+  "output": "/data/data/com.termux/files/home/daemeonai/image-coding/generated/jpeg-20260927-213821.jpeg",
+  "code_path": "/data/data/com.termux/files/home/daemeonai/image-coding/workspace/generated-code.sh",
+  "smoke_test": "bash -n + controlled execution"
+}

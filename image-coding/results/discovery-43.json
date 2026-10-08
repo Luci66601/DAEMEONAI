@@ -1,0 +1,37 @@
+{
+  "source": {
+    "filename": "64971.jpg",
+    "size_bytes": 18614,
+    "modified": "2026-09-27T20:50:25.710000"
+  },
+  "analysis": {
+    "summary": "Android messaging app conversation-information screen for a contact named \"Parre Tontti\", with profile actions, media/file access, pinned messages, notifications, group chat creation, and automatic image saving settings.",
+    "visual_type": "Android messaging app contact/conversation settings UI",
+    "technical_clues": [
+      "Android status and navigation bars are visible.",
+      "The interface is localized in Finnish.",
+      "Conversation information includes media/files, pinned messages, mute, notifications and sounds, group conversation creation, and automatic image saving.",
+      "The screen contains tappable profile, nickname, search, and theme/customization controls."
+    ],
+    "visible_text": [
+      "Parre Tontti",
+      "Profiili",
+      "Lempinimet",
+      "Hae",
+      "Muokauta",
+      "Keskustelun tiedot",
+      "Näytä media ja tiedostot",
+      "Kiinnitetyt viestit",
+      "Toiminnot",
+      "Mykistä Parre Tontti",
+      "Ilmoitukset ja äänet",
+      "Käytössä",
+      "Luo ryhmäkeskustelu käyttäjän Parre kan...",
+      "Tallenna kuvat automaattisesti"
+    ],
+    "possible_software_task": "Automate or reproduce navigation and settings interactions in a Finnish-localized Android messaging application, such as opening conversation details or changing notification and media-saving preferences.",
+    "possible_language": "Finnish UI localization; underlying application language and implementation language are not visible.",
+    "potential": 0.46,
+    "needs_more_investigation": true
+  }
+}

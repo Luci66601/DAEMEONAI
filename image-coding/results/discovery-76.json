@@ -1,0 +1,32 @@
+{
+  "source": {
+    "filename": "66350.jpg",
+    "size_bytes": 61277,
+    "modified": "2026-09-27T20:50:26.760000"
+  },
+  "analysis": {
+    "summary": "Mobile Pinterest-style screenshot showing decorative stud and rhinestone patterns on black denim jeans pockets. The image is primarily fashion inspiration rather than a software or technical artifact.",
+    "visual_type": "Mobile social-media image of embellished clothing",
+    "technical_clues": [
+      "Android or mobile app interface",
+      "Pinterest-like saved-image layout",
+      "Image collage of jeans pocket designs",
+      "No visible source code, terminal, configuration, diagram, or development tool"
+    ],
+    "visible_text": [
+      "16.47",
+      "5G",
+      "Jeans Pocket",
+      "Заклепки идеи...",
+      "Näytä lisää",
+      "Näytä käännös",
+      "\"Where can I buy studs?\" ...",
+      "Tallennettu",
+      "vaxyvishka"
+    ],
+    "possible_software_task": "Potentially catalog or classify clothing-design inspiration images, but no specific software task is evident.",
+    "possible_language": "Finnish and Russian, with some English text",
+    "potential": 0.08,
+    "needs_more_investigation": false
+  }
+}

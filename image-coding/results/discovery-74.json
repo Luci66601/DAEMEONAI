@@ -1,0 +1,34 @@
+{
+  "source": {
+    "filename": "66349.jpg",
+    "size_bytes": 46601,
+    "modified": "2026-09-27T20:50:26.700000"
+  },
+  "analysis": {
+    "summary": "A mobile Pinterest-style fashion image showing several pairs of patterned and embellished pants. The screen includes saving, comments, sharing, and board-related UI in Finnish.",
+    "visual_type": "Mobile social media or visual bookmarking app interface",
+    "technical_clues": [
+      "Pinterest-like image feed",
+      "Saved/bookmarked post state",
+      "Like, comment, share, and more-options buttons",
+      "Board or collection labeled for custom clothing",
+      "Mobile Android-style status bar and navigation"
+    ],
+    "visible_text": [
+      "16.47",
+      "5G",
+      "48",
+      "1,5 k",
+      "Tallennettu",
+      "bgk",
+      "\"where are the pants for ?\" ...",
+      "Näytä kaikki kommentit",
+      "Kysy osallistujilta heidän mielipiteitään ja ajatuksiaan",
+      "Näkyy vain seuraavan taulun käyttäjille: custom vaatteet"
+    ],
+    "possible_software_task": "A visual fashion discovery or clothing catalog feature that supports image saving, categorization into custom-clothing boards, comments, and product identification.",
+    "possible_language": "Finnish interface with an English post caption",
+    "potential": 0.25,
+    "needs_more_investigation": true
+  }
+}

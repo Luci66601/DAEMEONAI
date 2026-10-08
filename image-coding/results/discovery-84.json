@@ -1,0 +1,31 @@
+{
+  "source": {
+    "filename": "IMG-20260824-WA0002.jpg",
+    "size_bytes": 149486,
+    "modified": "2026-09-27T20:50:27.030000"
+  },
+  "analysis": {
+    "summary": "Photograph of a Nicorette Freshmint nicotine mouth spray multipack, showing three spray containers in retail packaging. No software interface, terminal, code, or development tool is visible.",
+    "visual_type": "Retail product packaging photograph",
+    "technical_clues": [
+      "Product branding and packaging suitable for OCR or product-catalog extraction",
+      "Three identical nicotine mouth-spray units are visible",
+      "Small 2D code or printed identifier appears on the spray containers",
+      "Multilingual labeling is present",
+      "Could support inventory, barcode/label recognition, or medication-product identification workflows"
+    ],
+    "visible_text": [
+      "nicorette",
+      "freshmint",
+      "1 mg",
+      "3 x 150",
+      "annosta",
+      "Vnr 52 44 15",
+      "613960"
+    ],
+    "possible_software_task": "Extract and structure product names, dosage, pack size, identifiers, and multilingual label text from retail medication photographs.",
+    "possible_language": "Not applicable; visible packaging includes multilingual text, including Finnish and Swedish terms.",
+    "potential": 0.32,
+    "needs_more_investigation": true
+  }
+}

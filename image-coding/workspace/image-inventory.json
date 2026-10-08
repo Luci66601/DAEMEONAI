@@ -1,0 +1,758 @@
+[
+  {
+    "filename": "FB_IMG_1788704756779.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/FB_IMG_1788704756779.jpg",
+    "size_bytes": 280873,
+    "modified": 1790531424.31,
+    "sha256": "6f75edd4bc824e8738c081eda681453d9256e8706a0f15c70ebe174abb8e1707",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1080x1350, components 3",
+    "dimensions": "1080x1350"
+  },
+  {
+    "filename": "Screenshot_20260822_150204_com.openai.chatgpt.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260822_150204_com.openai.chatgpt.jpg",
+    "size_bytes": 288881,
+    "modified": 1790531424.34,
+    "sha256": "92fb4cdfa6b3d819f343be1e6d2a529e044f62c8cc518b5c34c3fc92bb5f9ca9",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:22 15:02:05], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260822_211354_com.huawei.android.launcher.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260822_211354_com.huawei.android.launcher.jpg",
+    "size_bytes": 778511,
+    "modified": 1790531424.38,
+    "sha256": "6cb7c7e8c98688da43c521415074fcc9185ab69ddc458c74cbf5a8c33729134e",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:22 21:13:54], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260822_223240_com.huawei.android.launcher.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260822_223240_com.huawei.android.launcher.jpg",
+    "size_bytes": 451440,
+    "modified": 1790531424.41,
+    "sha256": "9f6f45bef5d18340410438fccda327b641610e94ce7916327f8195ce0f46be9f",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:22 22:32:40], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_013040_com.termux.api.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_013040_com.termux.api.jpg",
+    "size_bytes": 371081,
+    "modified": 1790531424.44,
+    "sha256": "8a2d76708e7e10bd0533f7502cd66555d1fcda09fe6901e5597d119bb23b5d69",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:30:40], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_013216_com.termux.api.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_013216_com.termux.api.jpg",
+    "size_bytes": 288252,
+    "modified": 1790531424.48,
+    "sha256": "1d17e4d2643227eecdc967794f366da7ae7caa3cce5a4393a213b098e7f709a5",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:32:16], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_013346_com.google.android.googlequicksearchbox.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_013346_com.google.android.googlequicksearchbox.jpg",
+    "size_bytes": 394589,
+    "modified": 1790531424.51,
+    "sha256": "a1c38618be424e32b3d63994ed68f37e67bacdf6f6f320c3621ac1be3c3c4a2a",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:33:46], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_013812_com.termux.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_013812_com.termux.jpg",
+    "size_bytes": 503925,
+    "modified": 1790531424.55,
+    "sha256": "172d1c55179ffc4a0db3701c1cdc1dee43c19973246ff3971b3209d01903769b",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:38:12], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_013942_com.google.android.googlequicksearchbox.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_013942_com.google.android.googlequicksearchbox.jpg",
+    "size_bytes": 439310,
+    "modified": 1790531424.58,
+    "sha256": "9dc0183477431fc32fe007c45e02a23838886c1380788e6aabc39ebe4bd9b01b",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:39:42], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_014415_com.termux.api.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_014415_com.termux.api.jpg",
+    "size_bytes": 424396,
+    "modified": 1790531424.62,
+    "sha256": "0ed93c9c4eb2f9657a0c8bd5ce13de12ff8fe3f74fd252ebf7418a056e853a2a",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:44:15], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_014431_com.termux.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_014431_com.termux.jpg",
+    "size_bytes": 488522,
+    "modified": 1790531424.65,
+    "sha256": "5f839a4531fad282d8e3e337adf889fee580da2618ce46ea6842224928b24490",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:44:31], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_014452_com.termux.api.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_014452_com.termux.api.jpg",
+    "size_bytes": 393996,
+    "modified": 1790531424.68,
+    "sha256": "6dc426a2f71686f20cbbb0baeb30c9e663e8f0621be72e117d96ce40894ebeed",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:44:52], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_014513_com.huawei.android.launcher.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_014513_com.huawei.android.launcher.jpg",
+    "size_bytes": 1041463,
+    "modified": 1790531424.72,
+    "sha256": "73141909462f78a700613e954314c0760bbc07a446c82242ef68e1e67b19b75f",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:45:13], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_015501_com.termux.api.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_015501_com.termux.api.jpg",
+    "size_bytes": 300742,
+    "modified": 1790531424.76,
+    "sha256": "d47d5482f888217f615646e7c406745fc8ba02cfad08fb6b4d7290b486e4df09",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:55:01], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_015611_com.termux.api.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_015611_com.termux.api.jpg",
+    "size_bytes": 358384,
+    "modified": 1790531424.79,
+    "sha256": "ce28d25f6af472d47aa8a54644f53fcce925c5a30d7ef465fbff24d170514dad",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:56:12], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_015614_com.termux.api.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_015614_com.termux.api.jpg",
+    "size_bytes": 352996,
+    "modified": 1790531424.83,
+    "sha256": "e5d281b57e7c4c0332dcb6bcb764f8a0f4daabad4ed9ffcc3076e6092a268249",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:56:14], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_015616_com.termux.api.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_015616_com.termux.api.jpg",
+    "size_bytes": 342367,
+    "modified": 1790531424.86,
+    "sha256": "cf399ba4ba83429c155748da49b632df1732b3ab4bbc39c6b8b956ba82773506",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 01:56:16], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_020954_com.openai.chatgpt.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_020954_com.openai.chatgpt.jpg",
+    "size_bytes": 441577,
+    "modified": 1790531424.9,
+    "sha256": "b8d2999a7d01d899bfe76bf566cb4de49d44368372223aa7b0857a370e4f330c",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 02:09:54], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_021240_com.termux.api.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_021240_com.termux.api.jpg",
+    "size_bytes": 396031,
+    "modified": 1790531424.93,
+    "sha256": "e5e21349970886055113b2ebe272c75270dffe1344bcbdd4eec2504c7ec01c07",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 02:12:41], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_050137_com.termux.api.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_050137_com.termux.api.jpg",
+    "size_bytes": 835176,
+    "modified": 1790531424.96,
+    "sha256": "8201298b929da9ff3e8ddb89be8a64fbba7ed9383cb55e65c6a161b879b0e288",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 05:01:37], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_052838_com.google.android.googlequicksearchbox.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_052838_com.google.android.googlequicksearchbox.jpg",
+    "size_bytes": 273704,
+    "modified": 1790531424.99,
+    "sha256": "8c887fe70152677fd1aabb42fb95e0a3534b658ba94c687d4ed19099fc6f3a27",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 05:28:38], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_070132_com.android.chrome.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_070132_com.android.chrome.jpg",
+    "size_bytes": 89255,
+    "modified": 1790531425.02,
+    "sha256": "e2e231181f954d8595266ecb8e93cfd07d11dd42a90cbebb7290744cb76335b8",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 07:01:32], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_070133_com.android.chrome.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_070133_com.android.chrome.jpg",
+    "size_bytes": 89299,
+    "modified": 1790531425.05,
+    "sha256": "40eeee41e9b0d6dbb671d49851886ed3b7f07f03fd8f8993ead7e0ac67426de8",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 07:01:33], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "unknown"
+  },
+  {
+    "filename": "Screenshot_20260827_190646_com.android.chrome.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_190646_com.android.chrome.jpg",
+    "size_bytes": 202302,
+    "modified": 1790531425.08,
+    "sha256": "3d6fb81751e502cefc69af8b1d1764213f81ee2748ac7660ed3a89e97bc9a95c",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 19:06:46], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_192333_com.termux.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_192333_com.termux.jpg",
+    "size_bytes": 588128,
+    "modified": 1790531425.11,
+    "sha256": "e257115c78311164c19527ac8c1a685991bd19c82f6057846f7d56923318991e",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 19:23:33], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260827_202510_com.huawei.android.launcher.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260827_202510_com.huawei.android.launcher.jpg",
+    "size_bytes": 546811,
+    "modified": 1790531425.15,
+    "sha256": "b25fef55aaa4a8ecb453e15ee7459d6f5cc97c05d4658d658dc7c303bf966eca",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:08:27 20:25:10], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260902_110722_com.facebook.katana.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260902_110722_com.facebook.katana.jpg",
+    "size_bytes": 878465,
+    "modified": 1790531425.19,
+    "sha256": "ec11c2305c60543722416f74de170653edee9708e1a13681455e951c2df672e5",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:09:02 11:07:22], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260903_130415_com.facebook.katana.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260903_130415_com.facebook.katana.jpg",
+    "size_bytes": 638886,
+    "modified": 1790531425.23,
+    "sha256": "25b6d67e2b96defda95a1f8bebb18ab28da102be1bd9549dad540da0561dbfb0",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:09:03 13:04:15], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260906_202353_com.android.chrome.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260906_202353_com.android.chrome.jpg",
+    "size_bytes": 360225,
+    "modified": 1790531425.27,
+    "sha256": "a96edd2b98662ad2dd60962773c1b55bfc184dd79ccf2c13fc3a6e4c9ac036a0",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:09:06 20:23:53], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260911_133851_com.whatsapp.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260911_133851_com.whatsapp.jpg",
+    "size_bytes": 838917,
+    "modified": 1790531425.3,
+    "sha256": "4cb5e16b5a6f4da0de252943a8ad0fcd338e6777d3956a9bb48fb9d99fa20646",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:09:11 13:38:51], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260913_145041_com.facebook.katana.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260913_145041_com.facebook.katana.jpg",
+    "size_bytes": 538413,
+    "modified": 1790531425.34,
+    "sha256": "63db19eb476e5f347ab4bf63836cf4e9759a3b7ee1a34e55559aa3dccacac406",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:09:13 14:50:41], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "59436.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/59436.jpg",
+    "size_bytes": 29619,
+    "modified": 1790531425.5,
+    "sha256": "f7ff0fa152610a6740cb0b97bf74cc8b9e48fd3fcb6803608268ad2d1d1714ae",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 512x384, components 3",
+    "dimensions": "512x384"
+  },
+  {
+    "filename": "Screenshot_20260918_194003_com.whatsapp.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260918_194003_com.whatsapp.jpg",
+    "size_bytes": 754912,
+    "modified": 1790531425.38,
+    "sha256": "20d039d32887e1fcc7bac22881b2c5bda85531df9bc569d2caa898a6962b0a0d",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:09:18 19:40:04], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260922_143808_com.facebook.katana.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260922_143808_com.facebook.katana.jpg",
+    "size_bytes": 705293,
+    "modified": 1790531425.41,
+    "sha256": "aa4fd270526b83df8d92f36593ebd5f703c4635bcff0c8091978c77bcb1db592",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:09:22 14:38:08], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260923_133610_com.android.chrome.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260923_133610_com.android.chrome.jpg",
+    "size_bytes": 1221872,
+    "modified": 1790531425.45,
+    "sha256": "b4456a40ac4dc9f01c0cac8dad771a6d6053a9e5a3b6efe7c24bc5dd032e1648",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:09:23 13:36:10], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "Screenshot_20260926_072032_com.android.deskclock.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/Screenshot_20260926_072032_com.android.deskclock.jpg",
+    "size_bytes": 164471,
+    "modified": 1790531425.48,
+    "sha256": "4b3ba9f5729ede927a24f803771a32a13117989d89082fe6d33948d9ab410066",
+    "file_type": "JPEG image data, Exif standard: [TIFF image data, big-endian, direntries=7, width=0, model=HRY-LX1T, height=0, manufacturer=HUAWEI, orientation=[*0*], datetime=2026:09:26 07:20:32], baseline, precision 8, 1080x2340, components 3",
+    "dimensions": "1080x2340"
+  },
+  {
+    "filename": "66052.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66052.jpg",
+    "size_bytes": 26997,
+    "modified": 1790531425.53,
+    "sha256": "560061742829c17ef27784c5b5477c841abf550510864b3d2a8455fdf836c087",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 733x313, components 3",
+    "dimensions": "733x313"
+  },
+  {
+    "filename": "57576.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/57576.jpg",
+    "size_bytes": 41851,
+    "modified": 1790531425.56,
+    "sha256": "e27f57927c512b04b4663046130c833a3372264a1c172914b86b9254e7208d9c",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 510x680, components 3",
+    "dimensions": "510x680"
+  },
+  {
+    "filename": "60135.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60135.jpg",
+    "size_bytes": 93753,
+    "modified": 1790531425.59,
+    "sha256": "01ba5c9cd40adb2dd1571a5d7eb1e7a293422a4fbf5a130560981e667652551a",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 384x682, components 3",
+    "dimensions": "384x682"
+  },
+  {
+    "filename": "66344.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66344.jpg",
+    "size_bytes": 15322,
+    "modified": 1790531425.62,
+    "sha256": "8521c070824a0e401d5bd7c53cf829c738ff375597787f6a8cfad8910531e1b7",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 384x512, components 3",
+    "dimensions": "384x512"
+  },
+  {
+    "filename": "66734.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66734.jpg",
+    "size_bytes": 29305,
+    "modified": 1790531425.65,
+    "sha256": "6d55b915f38ae452c594deedc4cef2679fd45f50e3f274048da05fcac5fd5469",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "65134.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/65134.jpg",
+    "size_bytes": 36804,
+    "modified": 1790531425.69,
+    "sha256": "32cd95a04ef659624a4cfa166dbb0c8824d5be3294868e7cb267bff01cf28510",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 306x682, components 3",
+    "dimensions": "306x682"
+  },
+  {
+    "filename": "64971.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64971.jpg",
+    "size_bytes": 18614,
+    "modified": 1790531425.71,
+    "sha256": "a7e4696d9d66d98bb45b2b9a9ef4100077c92a8bd3c1b5ec04792a9aa47cc50a",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 306x682, components 3",
+    "dimensions": "306x682"
+  },
+  {
+    "filename": "64970.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64970.jpg",
+    "size_bytes": 42344,
+    "modified": 1790531425.74,
+    "sha256": "f212b721e1eaf3df1caf4f77ab539c193e807e62578ba7a7607c555843051851",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 360x640, components 3",
+    "dimensions": "360x640"
+  },
+  {
+    "filename": "60136.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60136.jpg",
+    "size_bytes": 42051,
+    "modified": 1790531425.77,
+    "sha256": "0586ae0dbb58be0ca16004039326ba89c157c642fffec830090549622821c33b",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 336x682, components 3",
+    "dimensions": "336x682"
+  },
+  {
+    "filename": "64968.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64968.jpg",
+    "size_bytes": 39925,
+    "modified": 1790531425.8,
+    "sha256": "557c418cd3043599a4f2634bed3aa8995ed2117118b255f4938505c1a94f7e69",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 430x436, components 3",
+    "dimensions": "430x436"
+  },
+  {
+    "filename": "65913.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/65913.jpg",
+    "size_bytes": 32640,
+    "modified": 1790531425.83,
+    "sha256": "7b6c4fa2d31e3db1d03aebcd860880e6abcf256a341fa3584ab462e71a54579e",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "65901.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/65901.jpg",
+    "size_bytes": 23098,
+    "modified": 1790531425.85,
+    "sha256": "330d75bd2c370330229ed8d9573b5945b4b0b870b1ad45899dc86b509c3783b3",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 595x589, components 3",
+    "dimensions": "595x589"
+  },
+  {
+    "filename": "64903.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64903.jpg",
+    "size_bytes": 34982,
+    "modified": 1790531425.88,
+    "sha256": "e1532d7670f3a58eb0af4fd950edcac75f8f8d1ae44401060b2307c1b93b6d01",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "66115.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66115.jpg",
+    "size_bytes": 126436,
+    "modified": 1790531425.91,
+    "sha256": "d92a915b18d13c51c68e55a58fdcb32d466145c6b1fc85edc918417e04f626ef",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 540x675, components 3",
+    "dimensions": "540x675"
+  },
+  {
+    "filename": "64906.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64906.jpg",
+    "size_bytes": 24099,
+    "modified": 1790531425.94,
+    "sha256": "e493d631cf5788d6a2cd9bf18044ebf68137ca9d0158ac3040c207c40597a4db",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "64902.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64902.jpg",
+    "size_bytes": 14976,
+    "modified": 1790531425.96,
+    "sha256": "7666ad4a272b14c39b5ff2bf21cb66bc71f846551b81ed7c302a8661087cf3db",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "64445.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64445.jpg",
+    "size_bytes": 6323,
+    "modified": 1790531425.99,
+    "sha256": "b27c40d6d0bd5e21b2dd9d96cdc5a7822f692e2157c6cb83b45912f7aed29294",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "60871.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60871.jpg",
+    "size_bytes": 23244,
+    "modified": 1790531426.02,
+    "sha256": "8dde786dfc875249997b54ecf4912684163f925d58c7eb78e67a0afd612bf325",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 384x512, components 3",
+    "dimensions": "384x512"
+  },
+  {
+    "filename": "60872.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60872.jpg",
+    "size_bytes": 22150,
+    "modified": 1790531426.05,
+    "sha256": "eb60392323ca041d1d6445fcbac3c57442947a89c193b27646185b6cf737ca06",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 384x512, components 3",
+    "dimensions": "384x512"
+  },
+  {
+    "filename": "60873.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60873.jpg",
+    "size_bytes": 30301,
+    "modified": 1790531426.07,
+    "sha256": "486bfb8f68439412eb46824440d59560d7495fd5fa25da3a31d4eb8034bd1c48",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 384x512, components 3",
+    "dimensions": "384x512"
+  },
+  {
+    "filename": "64444.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64444.jpg",
+    "size_bytes": 6310,
+    "modified": 1790531426.1,
+    "sha256": "2d3dc75ad74980c51a90060209b4567b47b2e4789ad9013ab64753848a75d0e1",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "64414.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64414.jpg",
+    "size_bytes": 27062,
+    "modified": 1790531426.13,
+    "sha256": "b7cf6fe0f3d828d3c512f47a8783addf9cf4a4cf2478f7d49be80e92761442a0",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "64428.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64428.jpg",
+    "size_bytes": 15251,
+    "modified": 1790531426.15,
+    "sha256": "b288f3c1f044403e75e98fcf1edd72f8af38927670c8362dfb639aa53031b26a",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "60940.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/60940.jpg",
+    "size_bytes": 839,
+    "modified": 1790531426.18,
+    "sha256": "8f1ce98e6372676eff9a30b5f48a768366bc0a3e556ff587424c2bcd4ede1c7c",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1x1, components 3",
+    "dimensions": "1x1"
+  },
+  {
+    "filename": "64429.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64429.jpg",
+    "size_bytes": 11841,
+    "modified": 1790531426.21,
+    "sha256": "be303944d51fe0693ddf76fdc30db25d30081694dc6d03f9a7bb0010687e6e3f",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "64415.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64415.jpg",
+    "size_bytes": 18670,
+    "modified": 1790531426.24,
+    "sha256": "376767618561a12c08924673c2bc54cd6898d978a1aab51f0f49731fc718212d",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "64412.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64412.jpg",
+    "size_bytes": 20986,
+    "modified": 1790531426.27,
+    "sha256": "96665343dbe98e69526a36148d279003be6d7c2369fcd3912411a119c1065c18",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "61210.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/61210.jpg",
+    "size_bytes": 54254,
+    "modified": 1790531426.32,
+    "sha256": "459d78507cc23b15cb6bfec713c229bc176bac84dd4f0c2a46748b94284528ba",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1053x474, components 3",
+    "dimensions": "1053x474"
+  },
+  {
+    "filename": "61209.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/61209.jpg",
+    "size_bytes": 54505,
+    "modified": 1790531426.35,
+    "sha256": "6fd6cd0ad0cb03e92893501488f428516fbf0358ef81aa51d5aa8b89d59e3931",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1057x379, components 3",
+    "dimensions": "1057x379"
+  },
+  {
+    "filename": "64413.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64413.jpg",
+    "size_bytes": 19965,
+    "modified": 1790531426.4,
+    "sha256": "79d6feb440c5ff428666e7dbe15c3e3cd8efd8146ffd6d465575dc30d090481f",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "64410.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64410.jpg",
+    "size_bytes": 13293,
+    "modified": 1790531426.43,
+    "sha256": "4bd1f5586316391b776c19e55a11af790ac463cafd989b60117d125410c55b81",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "64411.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64411.jpg",
+    "size_bytes": 20748,
+    "modified": 1790531426.47,
+    "sha256": "41f0342e7ec0734b298ee240befea7e574304f4c6f96d9de707d46927184e008",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "64399.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/64399.jpg",
+    "size_bytes": 21044,
+    "modified": 1790531426.51,
+    "sha256": "99141eb0975061bf555785cabfcd6eba8d8ab7e20dbe4de67d5713fa80a20f76",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "66295.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66295.jpg",
+    "size_bytes": 53868,
+    "modified": 1790531426.55,
+    "sha256": "d26c9b91919be6a18d4ba9ab902845d0967e186fd367161f61b0469cc7a1689c",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 545x682, components 3",
+    "dimensions": "545x682"
+  },
+  {
+    "filename": "66117.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66117.jpg",
+    "size_bytes": 27650,
+    "modified": 1790531426.59,
+    "sha256": "6d4bc1bc9aac21f2fc8f031bfb10e9398df887c98e20437eb28180f5ebab6949",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "65916.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/65916.jpg",
+    "size_bytes": 24388,
+    "modified": 1790531426.63,
+    "sha256": "28a7b8b9d1c20f816b27809dbb04de6a7d4f2c9ed22e245b5efeca3acff85ec2",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "66360.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66360.jpg",
+    "size_bytes": 37641,
+    "modified": 1790531426.67,
+    "sha256": "8328ffe58a1048e8d054ce31d9537b9ad0866aecfb0822a17e2b72e02e77c132",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 360x796, components 3",
+    "dimensions": "360x796"
+  },
+  {
+    "filename": "66349.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66349.jpg",
+    "size_bytes": 46601,
+    "modified": 1790531426.7,
+    "sha256": "769e0c090039ba9c5c24aa460c7e8b45b092f5e7b64e7531c9583e2e840c6bf9",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 370x800, components 3",
+    "dimensions": "370x800"
+  },
+  {
+    "filename": "66351.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66351.jpg",
+    "size_bytes": 46825,
+    "modified": 1790531426.73,
+    "sha256": "f1261feafd38d5a2724dd948954352e0a1af399bc1f0ed000bc70be900f554ad",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 370x800, components 3",
+    "dimensions": "370x800"
+  },
+  {
+    "filename": "66350.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66350.jpg",
+    "size_bytes": 61277,
+    "modified": 1790531426.76,
+    "sha256": "170cde77f5546d4b323b5c52069cc97a2879ab1a670e94a231823e09d5bb0afe",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 370x800, components 3",
+    "dimensions": "370x800"
+  },
+  {
+    "filename": "66346.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66346.jpg",
+    "size_bytes": 14181,
+    "modified": 1790531426.79,
+    "sha256": "fe21562ed395cd1fa564c62caf6a2057a782b1b90b4dc6b75db1b716b3ef6ecd",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 370x800, components 3",
+    "dimensions": "370x800"
+  },
+  {
+    "filename": "66347.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66347.jpg",
+    "size_bytes": 22188,
+    "modified": 1790531426.82,
+    "sha256": "041431c807c8b2e30d17334819435b8e2e11cadd784b398dffc2a4bb987a06e1",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 370x800, components 3",
+    "dimensions": "370x800"
+  },
+  {
+    "filename": "66348.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66348.jpg",
+    "size_bytes": 17972,
+    "modified": 1790531426.85,
+    "sha256": "13894684e8cec92e8dc5dc5115ce71fc7922c284670588911282237f4c751740",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 370x800, components 3",
+    "dimensions": "370x800"
+  },
+  {
+    "filename": "66534.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66534.jpg",
+    "size_bytes": 26167,
+    "modified": 1790531426.88,
+    "sha256": "775f0beb172e0136d709a080ecbb6c2e71a3764093ed35daf393778d592a55b7",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "66345.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66345.jpg",
+    "size_bytes": 37173,
+    "modified": 1790531426.92,
+    "sha256": "f75d200a75ffbecf50d54d09e451230f6a7a7aa5d46c1f9b967cb66d64a220ea",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "66892.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/66892.jpg",
+    "size_bytes": 37913,
+    "modified": 1790531426.96,
+    "sha256": "90ee491560b48b35d39c5553e5b4d3aac45db03d198fdc2f9fe6b77e08c0cd1e",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 270x585, components 3",
+    "dimensions": "270x585"
+  },
+  {
+    "filename": "63175.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/63175.jpg",
+    "size_bytes": 30617,
+    "modified": 1790531426.99,
+    "sha256": "397f3d6c999d1fd1023c7539c921b5e5295deecf3ba2c9231aaead2d14d0a9c8",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 360x640, components 3",
+    "dimensions": "360x640"
+  },
+  {
+    "filename": "IMG-20260824-WA0002.jpg",
+    "path": "/data/data/com.termux/files/home/daemeonai/image-coding/gallery/IMG-20260824-WA0002.jpg",
+    "size_bytes": 149486,
+    "modified": 1790531427.03,
+    "sha256": "3703c311fef25121c2252c2e216127bb38522907d1bf3f26be292b7915c937c9",
+    "file_type": "JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1080x1920, components 3",
+    "dimensions": "1080x1920"
+  }
+]

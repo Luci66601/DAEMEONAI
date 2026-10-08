@@ -1,0 +1,26 @@
+{
+  "source": {
+    "filename": "63175.jpg",
+    "size_bytes": 30617,
+    "modified": "2026-09-27T20:50:26.990000"
+  },
+  "analysis": {
+    "summary": "Photograph of a green retail blister package containing three dark handheld consumer products. No software interface, code, terminal, or technical diagram is visible.",
+    "visual_type": "Physical product packaging photograph",
+    "technical_clues": [
+      "Retail blister packaging",
+      "Three packaged items",
+      "Printed branding and product labeling",
+      "Possible use for product recognition or OCR"
+    ],
+    "visible_text": [
+      "microrette",
+      "3 x 3.5",
+      "Razor"
+    ],
+    "possible_software_task": "Image-based product identification, packaging OCR, or inventory cataloging.",
+    "possible_language": "English",
+    "potential": 0.08,
+    "needs_more_investigation": true
+  }
+}

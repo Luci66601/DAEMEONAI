@@ -1,0 +1,39 @@
+{
+  "source": {
+    "filename": "64968.jpg",
+    "size_bytes": 39925,
+    "modified": "2026-09-27T20:50:25.800000"
+  },
+  "analysis": {
+    "summary": "A cropped text-based document or search-result view listing Finnish offense or case entries, including assault, theft, robbery, and homicide-related terms.",
+    "visual_type": "Scanned or screenshot document with monospaced and standard text listings",
+    "technical_clues": [
+      "Structured case-number formats such as R 18/3433 and R 761/2026/2234",
+      "Finnish legal or incident terminology",
+      "Repeated category labels that could support OCR, indexing, filtering, or legal-record search",
+      "Upper section appears tabular or terminal-like; lower section appears a separate list of linked or indexed records"
+    ],
+    "visible_text": [
+      "R 18/3433 PAHOINPITELY",
+      "R 18/3443 PAHOINPITELY",
+      "R 19/754 HUUMAUSAINERIKOS",
+      "R 19/3637 PETOS",
+      "R 19/3748 NÄPISTYS",
+      "R 19/4671 PAHOINPITELY",
+      "R 19/4671 LAITON UHKAUS",
+      "R 20/5639 LIEVÄ KAVALLUS",
+      "R 22/4191 PETOS",
+      "R 23/1480 HUUMAUSAINERIKOS",
+      "R 23/2916 VARKAUS",
+      "R 761/2026/2234 Lievä petos",
+      "R 761/2025/9757 Näpistys",
+      "R 761/2025/1523 Lievä petos ym.",
+      "R 761/2024/7554 Varkaus ym.",
+      "R 761/2024/5351 Lievä petos ym."
+    ],
+    "possible_software_task": "OCR and classify Finnish legal case records, or build a searchable interface that indexes case numbers and offense categories.",
+    "possible_language": "Finnish text; the underlying software or document system language is not identifiable.",
+    "potential": 0.58,
+    "needs_more_investigation": true
+  }
+}

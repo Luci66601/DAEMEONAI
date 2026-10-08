@@ -1,0 +1,57 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -Eeuo pipefail
+BASE="$HOME/daemeonai/image-coding"
+REQ="$BASE/queue/jpeg-generation.json"
+CODE="$BASE/workspace/generated-code.sh"
+mkdir -p "$BASE/queue" "$BASE/workspace" "$BASE/generated" "$BASE/logs"
+
+SOURCE=""
+FOUND=""
+
+while IFS= read -r -d '' F; do
+    TEXT="$(cat "$F" 2>/dev/null || true)"
+
+    C="$(printf '%s' "$TEXT" | jq -r '.. | strings | select(test("(^#!|^#!/|\\becho\\b|\\bprintf\\b|\\bif \\[|\\bcase \\b|\\bfor \\b|\\bwhile \\b|\\bcurl \\b|\\bjq \\b|\\bpython\\b|\\bnode\\b)";"i"))' 2>/dev/null | head -1)"
+
+    if [[ -n "$C" ]]; then
+        SOURCE="$F"
+        FOUND="$C"
+        break
+    fi
+done < <(find "$BASE/results" -type f -name '*.json' -print0)
+
+if [[ -n "$FOUND" ]]; then
+    printf '%s\n' '#!/data/data/com.termux/files/usr/bin/bash' "$FOUND" > "$CODE"
+    chmod +x "$CODE"
+
+    if bash -n "$CODE"; then
+        OUT="$BASE/generated/jpeg-$(date +%Y%m%d-%H%M%S).jpeg"
+
+        jq -n \
+          --arg source "$SOURCE" \
+          --arg code "$CODE" \
+          --arg output "$OUT" \
+          '{
+            operation:"IMAGE_GENERATION_WITH_CODE_FIX",
+            status:"PENDING_APPROVAL",
+            human_approval_required:true,
+            execution_allowed:false,
+            write_allowed:false,
+            payment_execution:false,
+            source_analysis:$source,
+            code_path:$code,
+            output:$output,
+            smoke_test:"bash -n + controlled execution"
+          }' > "$REQ"
+
+        echo "BRIDGE=CONNECTED"
+        echo "SOURCE=$SOURCE"
+        echo "CODE=$CODE"
+        echo "REQUEST=$REQ"
+    else
+        echo "CODELIKE_CONTENT_FOUND_BUT_SYNTAX_FAILED"
+        echo "SOURCE=$SOURCE"
+    fi
+else
+    echo "NO_CODELIKE_CONTENT_FOUND"
+fi

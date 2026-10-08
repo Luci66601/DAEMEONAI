@@ -1,0 +1,30 @@
+{
+  "source": {
+    "filename": "65916.jpg",
+    "size_bytes": 24388,
+    "modified": "2026-09-27T20:50:26.630000"
+  },
+  "analysis": {
+    "summary": "A mobile social-media post displays a desktop browser with a green, multi-panel OSINT dashboard containing categorized tools, guides, and groups.",
+    "visual_type": "Mobile screenshot of a social-media video showing a desktop web application",
+    "technical_clues": [
+      "Browser-based dashboard interface",
+      "OSINT-related categories and resource listings",
+      "Multiple colored panels with tool or group names",
+      "Desktop browser tabs and address bar visible",
+      "Social-media engagement controls overlaid on the video",
+      "Finnish-language comment field in the mobile app UI"
+    ],
+    "visible_text": [
+      "Ghost Society (OSINT Central)",
+      "OSINT Tools / Guides & Groups",
+      "YOU GO TO",
+      "One dashboard with free OSI... em...en",
+      "Lisää kommentti..."
+    ],
+    "possible_software_task": "Investigate or recreate a web-based OSINT resource dashboard that organizes investigative tools, guides, and communities into categorized panels.",
+    "possible_language": "English for the dashboard content; Finnish for the social-media interface",
+    "potential": 0.82,
+    "needs_more_investigation": true
+  }
+}

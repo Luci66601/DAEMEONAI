@@ -1,0 +1,17 @@
+{
+  "source": {
+    "filename": "66295.jpg",
+    "size_bytes": 53868,
+    "modified": "2026-09-27T20:50:26.550000"
+  },
+  "analysis": {
+    "summary": "A photograph of a gray kitten sitting indoors between textured surfaces. No software, device, interface, or technical content is visible.",
+    "visual_type": "Photograph of an animal",
+    "technical_clues": [],
+    "visible_text": [],
+    "possible_software_task": "None apparent from the image.",
+    "possible_language": "",
+    "potential": 0.0,
+    "needs_more_investigation": false
+  }
+}

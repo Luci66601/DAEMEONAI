@@ -1,0 +1,17 @@
+{
+  "source": {
+    "filename": "64970.jpg",
+    "size_bytes": 42344,
+    "modified": "2026-09-27T20:50:25.740000"
+  },
+  "analysis": {
+    "summary": "Portrait selfie of a person in front of a wooden background. No software, device interface, technical documentation, or development-related content is visible.",
+    "visual_type": "Photograph / portrait selfie",
+    "technical_clues": [],
+    "visible_text": [],
+    "possible_software_task": "No apparent software task can be inferred from this image.",
+    "possible_language": "",
+    "potential": 0.0,
+    "needs_more_investigation": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": {
+    "filename": "66348.jpg",
+    "size_bytes": 17972,
+    "modified": "2026-09-27T20:50:26.850000"
+  },
+  "analysis": {
+    "summary": "Mobile Safari displays a real-estate property image gallery showing an empty room with wood flooring. The page appears to be on the Finnish housing website asunnot.oikotie.fi, with the image labeled 10 / 14.",
+    "visual_type": "Mobile web browser screenshot of a real-estate listing gallery",
+    "technical_clues": [
+      "Safari-style mobile browser interface",
+      "Real-estate image gallery with previous navigation and image counter",
+      "Website domain visible: asunnot.oikotie.fi",
+      "Property interior photograph displayed within a dark gallery viewer",
+      "No visible source code, terminal, development tools, configuration, or error messages"
+    ],
+    "visible_text": [
+      "20.59",
+      "5G",
+      "28%",
+      "asunnot.oikotie.fi",
+      "10 / 14"
+    ],
+    "possible_software_task": "Potentially analyze or recreate a mobile property-listing image gallery, or extract property-image metadata from a real-estate website.",
+    "possible_language": "Not determinable from the screenshot; the domain suggests a Finnish-language service.",
+    "potential": 0.18,
+    "needs_more_investigation": true
+  }
+}

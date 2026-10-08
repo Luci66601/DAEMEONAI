@@ -1,0 +1,17 @@
+{
+  "source": {
+    "filename": "60135.jpg",
+    "size_bytes": 93753,
+    "modified": "2026-09-27T20:50:25.590000"
+  },
+  "analysis": {
+    "summary": "Outdoor photograph of leafy berry-bearing plants in a wooded or garden setting. No visible software interface, device screen, text, or technical equipment.",
+    "visual_type": "Nature photograph",
+    "technical_clues": [],
+    "visible_text": [],
+    "possible_software_task": "Plant or fruit identification and health assessment from images, potentially including detection of ripeness, disease, or pest damage.",
+    "possible_language": "Not inferable",
+    "potential": 0.18,
+    "needs_more_investigation": true
+  }
+}

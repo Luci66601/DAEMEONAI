@@ -1,0 +1,84 @@
+2026-09-27T22:05:37+03:00 correlation_id=20260927-220537-6857 level=INFO event=approval detail=result=ACCEPTED\ code=0\ text=yes PAYMENT=NOT_SENT
+2026-09-27T22:05:37+03:00 correlation_id=20260927-220537-6857 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-27T22:05:37+03:00 correlation_id=20260927-220537-6857 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-27T22:05:38+03:00 correlation_id=20260927-220538-6892 level=INFO event=approval detail=result=ACCEPTED\ code=0\ text=kyllä PAYMENT=NOT_SENT
+2026-09-27T22:05:38+03:00 correlation_id=20260927-220538-6892 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-27T22:05:38+03:00 correlation_id=20260927-220538-6892 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-27T22:05:39+03:00 correlation_id=20260927-220539-6938 level=INFO event=approval detail=result=REJECTED\ code=0\ text=no PAYMENT=NOT_SENT
+2026-09-27T22:05:39+03:00 correlation_id=20260927-220539-6938 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-27T22:05:39+03:00 correlation_id=20260927-220539-6938 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-27T22:05:40+03:00 correlation_id=20260927-220540-6977 level=INFO event=approval detail=result=REJECTED\ code=-2\ text= PAYMENT=NOT_SENT
+2026-09-27T22:05:40+03:00 correlation_id=20260927-220540-6977 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-27T22:05:40+03:00 correlation_id=20260927-220540-6977 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-27T22:05:41+03:00 correlation_id=20260927-220540-7041 level=INFO event=approval detail=result=TIMEOUT\ code=TIMEOUT\ text= PAYMENT=NOT_SENT
+2026-09-27T22:05:41+03:00 correlation_id=20260927-220540-7041 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-27T22:05:41+03:00 correlation_id=20260927-220540-7041 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-27T22:05:41+03:00 correlation_id=20260927-220541-7070 level=INFO event=approval detail=result=UNKNOWN\ code=0\ text=maybe PAYMENT=NOT_SENT
+2026-09-27T22:05:41+03:00 correlation_id=20260927-220541-7070 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-27T22:05:41+03:00 correlation_id=20260927-220541-7070 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-27T22:05:42+03:00 correlation_id=20260927-220542-7098 level=INFO event=approval detail=result=API_ERROR\ code=API_ERROR\ text= PAYMENT=NOT_SENT
+2026-09-27T22:05:42+03:00 correlation_id=20260927-220542-7098 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-27T22:05:42+03:00 correlation_id=20260927-220542-7098 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:13+03:00 correlation_id=20260930-192113-21424 level=INFO event=approval detail=result=ACCEPTED\ code=0\ text=yes PAYMENT=NOT_SENT
+2026-09-30T19:21:14+03:00 correlation_id=20260930-192113-21424 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:14+03:00 correlation_id=20260930-192113-21424 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:15+03:00 correlation_id=20260930-192115-21453 level=INFO event=approval detail=result=ACCEPTED\ code=0\ text=kyllä PAYMENT=NOT_SENT
+2026-09-30T19:21:15+03:00 correlation_id=20260930-192115-21453 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:15+03:00 correlation_id=20260930-192115-21453 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:16+03:00 correlation_id=20260930-192116-21489 level=INFO event=approval detail=result=REJECTED\ code=0\ text=no PAYMENT=NOT_SENT
+2026-09-30T19:21:16+03:00 correlation_id=20260930-192116-21489 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:16+03:00 correlation_id=20260930-192116-21489 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:17+03:00 correlation_id=20260930-192117-21519 level=INFO event=approval detail=result=REJECTED\ code=-2\ text= PAYMENT=NOT_SENT
+2026-09-30T19:21:17+03:00 correlation_id=20260930-192117-21519 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:17+03:00 correlation_id=20260930-192117-21519 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:17+03:00 correlation_id=20260930-192117-21549 level=INFO event=approval detail=result=TIMEOUT\ code=TIMEOUT\ text= PAYMENT=NOT_SENT
+2026-09-30T19:21:17+03:00 correlation_id=20260930-192117-21549 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:17+03:00 correlation_id=20260930-192117-21549 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:18+03:00 correlation_id=20260930-192118-21578 level=INFO event=approval detail=result=UNKNOWN\ code=0\ text=maybe PAYMENT=NOT_SENT
+2026-09-30T19:21:18+03:00 correlation_id=20260930-192118-21578 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:18+03:00 correlation_id=20260930-192118-21578 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:19+03:00 correlation_id=20260930-192119-21607 level=INFO event=approval detail=result=API_ERROR\ code=API_ERROR\ text= PAYMENT=NOT_SENT
+2026-09-30T19:21:19+03:00 correlation_id=20260930-192119-21607 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:19+03:00 correlation_id=20260930-192119-21607 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:34+03:00 correlation_id=20260930-192134-21795 level=INFO event=approval detail=result=ACCEPTED\ code=0\ text=yes PAYMENT=NOT_SENT
+2026-09-30T19:21:35+03:00 correlation_id=20260930-192134-21795 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:35+03:00 correlation_id=20260930-192134-21795 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:35+03:00 correlation_id=20260930-192135-21824 level=INFO event=approval detail=result=ACCEPTED\ code=0\ text=kyllä PAYMENT=NOT_SENT
+2026-09-30T19:21:35+03:00 correlation_id=20260930-192135-21824 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:35+03:00 correlation_id=20260930-192135-21824 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:36+03:00 correlation_id=20260930-192136-21851 level=INFO event=approval detail=result=REJECTED\ code=0\ text=no PAYMENT=NOT_SENT
+2026-09-30T19:21:36+03:00 correlation_id=20260930-192136-21851 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:36+03:00 correlation_id=20260930-192136-21851 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:36+03:00 correlation_id=20260930-192136-21880 level=INFO event=approval detail=result=REJECTED\ code=-2\ text= PAYMENT=NOT_SENT
+2026-09-30T19:21:36+03:00 correlation_id=20260930-192136-21880 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:36+03:00 correlation_id=20260930-192136-21880 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:37+03:00 correlation_id=20260930-192137-21907 level=INFO event=approval detail=result=TIMEOUT\ code=TIMEOUT\ text= PAYMENT=NOT_SENT
+2026-09-30T19:21:37+03:00 correlation_id=20260930-192137-21907 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:37+03:00 correlation_id=20260930-192137-21907 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:38+03:00 correlation_id=20260930-192138-21935 level=INFO event=approval detail=result=UNKNOWN\ code=0\ text=maybe PAYMENT=NOT_SENT
+2026-09-30T19:21:38+03:00 correlation_id=20260930-192138-21935 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:38+03:00 correlation_id=20260930-192138-21935 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:21:38+03:00 correlation_id=20260930-192138-21964 level=INFO event=approval detail=result=API_ERROR\ code=API_ERROR\ text= PAYMENT=NOT_SENT
+2026-09-30T19:21:38+03:00 correlation_id=20260930-192138-21964 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:21:38+03:00 correlation_id=20260930-192138-21964 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:22:21+03:00 correlation_id=20260930-192221-22390 level=INFO event=approval detail=result=ACCEPTED\ code=0\ text=yes PAYMENT=NOT_SENT
+2026-09-30T19:22:22+03:00 correlation_id=20260930-192221-22390 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:22:22+03:00 correlation_id=20260930-192221-22390 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:22:23+03:00 correlation_id=20260930-192223-22419 level=INFO event=approval detail=result=ACCEPTED\ code=0\ text=kyllä PAYMENT=NOT_SENT
+2026-09-30T19:22:24+03:00 correlation_id=20260930-192223-22419 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:22:24+03:00 correlation_id=20260930-192223-22419 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:22:24+03:00 correlation_id=20260930-192224-22449 level=INFO event=approval detail=result=REJECTED\ code=0\ text=no PAYMENT=NOT_SENT
+2026-09-30T19:22:24+03:00 correlation_id=20260930-192224-22449 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:22:24+03:00 correlation_id=20260930-192224-22449 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:22:25+03:00 correlation_id=20260930-192225-22479 level=INFO event=approval detail=result=REJECTED\ code=-2\ text= PAYMENT=NOT_SENT
+2026-09-30T19:22:25+03:00 correlation_id=20260930-192225-22479 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:22:25+03:00 correlation_id=20260930-192225-22479 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:22:26+03:00 correlation_id=20260930-192226-22510 level=INFO event=approval detail=result=TIMEOUT\ code=TIMEOUT\ text= PAYMENT=NOT_SENT
+2026-09-30T19:22:26+03:00 correlation_id=20260930-192226-22510 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:22:26+03:00 correlation_id=20260930-192226-22510 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:22:26+03:00 correlation_id=20260930-192226-22538 level=INFO event=approval detail=result=UNKNOWN\ code=0\ text=maybe PAYMENT=NOT_SENT
+2026-09-30T19:22:26+03:00 correlation_id=20260930-192226-22538 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:22:26+03:00 correlation_id=20260930-192226-22538 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT
+2026-09-30T19:22:27+03:00 correlation_id=20260930-192227-22566 level=INFO event=approval detail=result=API_ERROR\ code=API_ERROR\ text= PAYMENT=NOT_SENT
+2026-09-30T19:22:27+03:00 correlation_id=20260930-192227-22566 level=INFO event=localhost detail=url=http://127.0.0.1:1/w\ http_code=000000 PAYMENT=NOT_SENT
+2026-09-30T19:22:27+03:00 correlation_id=20260930-192227-22566 level=INFO event=cleanup detail=rc=0 PAYMENT=NOT_SENT

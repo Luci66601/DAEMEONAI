@@ -1,0 +1,28 @@
+{
+  "source": {
+    "filename": "60871.jpg",
+    "size_bytes": 23244,
+    "modified": "2026-09-27T20:50:26.020000"
+  },
+  "analysis": {
+    "summary": "Photograph of a Finnish official legal or administrative document on paper. The document contains structured headings, dates, numbered items, and several paragraphs of formal text, but much of the text is blurred.",
+    "visual_type": "Photographed Finnish legal or administrative document",
+    "technical_clues": [
+      "Structured document with labeled fields and numbered sections",
+      "Possible legal case, decision, or charge information",
+      "Could support OCR, document classification, metadata extraction, translation, or sensitive-text redaction workflows",
+      "No visible source code, terminal, application UI, or development environment"
+    ],
+    "visible_text": [
+      "VANTAA",
+      "7.7.2023",
+      "Päätös",
+      "1. HUUMAUSAINERIKOS",
+      "2. ..."
+    ],
+    "possible_software_task": "OCR and structured extraction of Finnish legal-document fields, followed by translation, classification, or privacy-preserving redaction.",
+    "possible_language": "Finnish",
+    "potential": 0.72,
+    "needs_more_investigation": true
+  }
+}

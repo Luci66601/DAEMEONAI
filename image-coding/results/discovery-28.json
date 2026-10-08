@@ -1,0 +1,56 @@
+{
+  "source": {
+    "filename": "Screenshot_20260903_130415_com.facebook.katana.jpg",
+    "size_bytes": 638886,
+    "modified": "2026-09-27T20:50:25.230000"
+  },
+  "analysis": {
+    "summary": "A Facebook video displays a desktop browser open to an OSINT resource dashboard called \"Ghost Society (OSINT Central)\". The dashboard organizes investigation tools and links into categories such as email analysis, phone analysis, username lookup, digital forensics, malware analysis, domain analysis, and URL extraction.",
+    "visual_type": "Android Facebook video screenshot showing a web browser and an OSINT bookmark/dashboard website",
+    "technical_clues": [
+      "Browser-based dashboard hosted on start.me",
+      "Organized OSINT tool and guide categories",
+      "Links for email, phone, username, domain, URL, social-media, malware, and digital-forensics analysis",
+      "Multiple browser tabs and bookmark shortcuts are visible",
+      "A dark terminal-like application appears in the background",
+      "The interface resembles a curated bookmark portal or investigation toolkit"
+    ],
+    "visible_text": [
+      "Ghost Society (OSINT Central)",
+      "OSINT Tools / Guides in a Group",
+      "OSINT LIST",
+      "OSINT GUIDES",
+      "OSINT SEARCH ENGINES",
+      "FRAMEWORKS",
+      "DOXING",
+      "SEARCH ENGINES",
+      "TORRENT SEARCH ENGINES",
+      "SCHOLAR / ACADEMIC SEARCH ENGINES",
+      "EMAIL ANALYSIS",
+      "PHONE ANALYSIS",
+      "USERNAME LOOKUP",
+      "DIGITAL FORENSICS",
+      "MALWARE ANALYSIS",
+      "MESSAGE ARCHIVE",
+      "TELEGRAM ANALYSIS",
+      "X (TWITTER) ANALYSIS",
+      "MINECRAFT ANALYSIS",
+      "DOMAIN ANALYSIS",
+      "URL EXTRACTION",
+      "EMOJI ANALYSIS",
+      "KEYWORD ARCHIVES",
+      "UK PERSON LOOKUP",
+      "stoplapdsdying.org",
+      "Deportationtracker.org",
+      "ICE List",
+      "iceblock.app",
+      "ice-tracker.info",
+      "ice-tracker.org",
+      "Lisää kommentti..."
+    ],
+    "possible_software_task": "Build a web-based OSINT resource dashboard that categorizes investigation tools, guides, and searchable external services, with bookmark management and a searchable interface.",
+    "possible_language": "HTML/CSS/JavaScript for the web interface; no programming language is directly identifiable from the image.",
+    "potential": 0.87,
+    "needs_more_investigation": true
+  }
+}

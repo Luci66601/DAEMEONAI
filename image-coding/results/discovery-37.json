@@ -1,0 +1,33 @@
+{
+  "source": {
+    "filename": "66052.jpg",
+    "size_bytes": 26997,
+    "modified": "2026-09-27T20:50:25.530000"
+  },
+  "analysis": {
+    "summary": "A Finnish court hearing summons or attendance notice. It provides the hearing type, date and time, location, and a statement that personal attendance is mandatory with a 700 euro penalty for nonattendance.",
+    "visual_type": "Scanned or photographed official legal document",
+    "technical_clues": [
+      "Structured form-like layout with bold field labels and corresponding values",
+      "Finnish-language legal and administrative text",
+      "Could be processed using OCR and document field extraction",
+      "Contains date, time, venue, attendance requirement, and financial consequence data",
+      "Potentially useful for calendar reminders, legal case management, or notification automation"
+    ],
+    "visible_text": [
+      "KUTSU — Teidät kutsutaan käräjäoikeuden istuntoon.",
+      "ISTUNTO — Pääkäsittely",
+      "AIKA — Perjantai 27.11.2026 klo 9.30, Sali 3",
+      "PAIKKA — Varsinais-Suomen käräjäoikeus",
+      "Turun oikeustalo, Sairashuoneenkatu 2-4",
+      "20100 TURKU",
+      "LÄSNÄOLOVELVOLLISUUS",
+      "Asemassa vastaaja 27.11.2026:",
+      "Teidän on osallistuttava istuntoon henkilökohtaisesti 700 euron sakon uhalla."
+    ],
+    "possible_software_task": "Build an OCR-based legal document parser that extracts hearing dates, times, locations, case roles, attendance requirements, and penalties, then creates reminders or tasks in a calendar or case-management system.",
+    "possible_language": "Finnish text; suitable implementation languages could include Python or JavaScript, but no programming language is shown.",
+    "potential": 0.78,
+    "needs_more_investigation": true
+  }
+}

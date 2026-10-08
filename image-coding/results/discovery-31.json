@@ -1,0 +1,37 @@
+{
+  "source": {
+    "filename": "Screenshot_20260913_145041_com.facebook.katana.jpg",
+    "size_bytes": 538413,
+    "modified": "2026-09-27T20:50:25.340000"
+  },
+  "analysis": {
+    "summary": "Android Facebook screenshot showing a social media post about an alleged pill that could extend human life to 150 years, with engagement metrics and a partially visible French-language web developer profile or advertisement.",
+    "visual_type": "Android Facebook feed screenshot",
+    "technical_clues": [
+      "Facebook Android application interface",
+      "Social media post with large promotional headline and medical/longevity claim",
+      "Embedded image of pink pills",
+      "Engagement indicators showing reactions, comments, and shares",
+      "Partially visible profile or sponsored content labeled in French",
+      "Potential target for OCR, misinformation detection, claim verification, or social-media content classification"
+    ],
+    "visible_text": [
+      "facebook",
+      "New York Times. “In a few years, this will be the reality.”",
+      "Dive deeper in the comments below.",
+      "SCIENTISTS CLAIM",
+      "THEY’VE MADE A PILL",
+      "THAT COULD EXTEND",
+      "LIFE TO 150",
+      "666",
+      "376",
+      "219",
+      "Développeur web full...",
+      "Liitv"
+    ],
+    "possible_software_task": "Extract and analyze text from social media screenshots, then assess the credibility or misinformation risk of sensational health claims and identify associated engagement or advertising metadata.",
+    "possible_language": "English and French",
+    "potential": 0.78,
+    "needs_more_investigation": true
+  }
+}

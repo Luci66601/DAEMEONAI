@@ -1,0 +1,10 @@
+{
+  "operation": "IMAGE_GENERATION_WITH_CODE_FIX",
+  "status": "HUMAN_APPROVED",
+  "human_approval_required": true,
+  "execution_allowed": true,
+  "write_allowed": false,
+  "payment_execution": false,
+  "code_path": "/data/data/com.termux/files/home/daemeonai/image-coding/workspace/approved-test.sh",
+  "smoke_test": "bash -n + controlled execution"
+}

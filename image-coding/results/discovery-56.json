@@ -1,0 +1,24 @@
+{
+  "source": {
+    "filename": "60873.jpg",
+    "size_bytes": 30301,
+    "modified": "2026-09-27T20:50:26.070000"
+  },
+  "analysis": {
+    "summary": "Photograph of a printed Finnish-language document page with headings, paragraphs, and numbered or bulleted sections. The content appears administrative or informational rather than related to software development.",
+    "visual_type": "Printed document photographed on a carpet",
+    "technical_clues": [
+      "Structured headings and paragraph layout",
+      "Numbered or bulleted list near the middle of the page",
+      "No visible application interface, terminal, source code, device configuration, or software workflow"
+    ],
+    "visible_text": [
+      "Toimintaa",
+      "VERTAILUN MUUT VAIHTOEHDOT"
+    ],
+    "possible_software_task": "No clear software task can be inferred from the image; it may involve digitizing or translating the printed document.",
+    "possible_language": "Finnish",
+    "potential": 0.03,
+    "needs_more_investigation": true
+  }
+}

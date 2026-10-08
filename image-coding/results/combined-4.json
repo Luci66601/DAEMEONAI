@@ -1,0 +1,18 @@
+{
+  "contact_sheet": "/data/data/com.termux/files/home/daemeonai/image-coding/workspace/contact-sheets/contact-4.jpg",
+  "analysis": {
+    "relationship_found": true,
+    "group_summary": "The contact sheet contains several unrelated personal mobile screenshots, but at least three images are clearly connected: they show the same real-estate website (asunnot.okiotie.fi) and interior photos of the same vacant apartment across different gallery positions.",
+    "related_elements": [
+      "Repeated asunnot.okiotie.fi browser header",
+      "Apartment interior photographs shown as gallery items 1/?, 7/14, and 10/14",
+      "Finnish-language WhatsApp and Facebook content",
+      "Additional unrelated fashion, streaming-service, and social-media screenshots"
+    ],
+    "possible_project": "Browsing or evaluating a Finnish apartment rental or property listing",
+    "possible_problem": "No clear technical problem is shown; the related screenshots appear to document or review a property listing and its image gallery.",
+    "possible_software_task": "Navigate, inspect, or organize screenshots from a real-estate listing gallery",
+    "likely_language": "Finnish, with some Russian text in social-media content",
+    "confidence": 0.94
+  }
+}

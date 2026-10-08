@@ -1,0 +1,632 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+
+BASE="$HOME/daemeonai/image-coding"
+GALLERY="$BASE/gallery"
+RESULTS="$BASE/results"
+OPP="$BASE/opportunities"
+QUEUE="$BASE/queue"
+WORK="$BASE/workspace"
+SHEETS="$WORK/contact-sheets"
+LOG="$BASE/logs/image-opportunity-agent.log"
+MODEL="${OPENAI_MODEL:-gpt-5.6-luna}"
+
+mkdir -p "$GALLERY" "$RESULTS" "$OPP" "$QUEUE" "$WORK" "$SHEETS" "$BASE/logs"
+
+echo "=== DAEMEONAI IMAGE DISCOVERY v4 ===" | tee -a "$LOG"
+
+# ------------------------------------------------------------
+# 1. KERÄÄ GALLERIAN JPEG-KUVAT
+# ------------------------------------------------------------
+
+find /sdcard/DCIM /sdcard/Pictures /sdcard/Download \
+  -type f \( -iname '*.jpg' -o -iname '*.jpeg' \) \
+  -print0 2>/dev/null |
+while IFS= read -r -d '' f; do
+    cp -n "$f" "$GALLERY/$(basename "$f")" 2>/dev/null || true
+done
+
+mapfile -d '' IMAGES < <(
+    find "$GALLERY" -type f \
+      \( -iname '*.jpg' -o -iname '*.jpeg' \) \
+      -print0
+)
+
+echo "IMAGES=${#IMAGES[@]}" | tee -a "$LOG"
+
+[[ ${#IMAGES[@]} -gt 0 ]] || exit 2
+
+# ------------------------------------------------------------
+# 2. LUO KONTAKTIKUVAT
+# ------------------------------------------------------------
+
+rm -f "$SHEETS"/*.jpg 2>/dev/null || true
+
+if command -v montage >/dev/null 2>&1; then
+
+    echo "CONTACT_SHEETS=ImageMagick" | tee -a "$LOG"
+
+    mapfile -t SORTED < <(
+        printf '%s\n' "${IMAGES[@]}" | sort
+    )
+
+    SHEET_N=0
+    BATCH=()
+
+    for IMG in "${SORTED[@]}"; do
+        BATCH+=("$IMG")
+
+        if [[ ${#BATCH[@]} -ge 12 ]]; then
+            SHEET_N=$((SHEET_N+1))
+
+            montage "${BATCH[@]}" \
+                -thumbnail '500x500>' \
+                -geometry '+8+8' \
+                -tile 4x3 \
+                -background white \
+                "$SHEETS/contact-$SHEET_N.jpg" 2>/dev/null || true
+
+            BATCH=()
+        fi
+    done
+
+    if [[ ${#BATCH[@]} -gt 0 ]]; then
+        SHEET_N=$((SHEET_N+1))
+
+        montage "${BATCH[@]}" \
+            -thumbnail '500x500>' \
+            -geometry '+8+8' \
+            -tile 4x3 \
+            -background white \
+            "$SHEETS/contact-$SHEET_N.jpg" 2>/dev/null || true
+    fi
+
+elif python3 - <<'PY'
+try:
+    import PIL
+    print("PIL_OK")
+except Exception:
+    raise SystemExit(1)
+PY
+then
+
+    echo "CONTACT_SHEETS=Pillow" | tee -a "$LOG"
+
+    python3 - "$GALLERY" "$SHEETS" <<'PY'
+import os,sys,math
+from PIL import Image,ImageOps,ImageDraw
+
+gallery,outdir=sys.argv[1:]
+files=sorted(
+    os.path.join(gallery,x)
+    for x in os.listdir(gallery)
+    if x.lower().endswith((".jpg",".jpeg"))
+)
+
+for start in range(0,len(files),12):
+    batch=files[start:start+12]
+
+    cell_w=500
+    cell_h=500
+    cols=4
+    rows=math.ceil(len(batch)/cols)
+
+    sheet=Image.new(
+        "RGB",
+        (cols*cell_w,rows*cell_h),
+        "white"
+    )
+
+    for i,path in enumerate(batch):
+        try:
+            im=Image.open(path).convert("RGB")
+            im.thumbnail((480,460))
+
+            x=(i%cols)*cell_w+(cell_w-im.width)//2
+            y=(i//cols)*cell_h+10
+
+            sheet.paste(im,(x,y))
+
+            draw=ImageDraw.Draw(sheet)
+            draw.text(
+                (x,y+im.height+5),
+                os.path.basename(path)[:55],
+                fill="black"
+            )
+        except Exception:
+            pass
+
+    sheet.save(
+        os.path.join(
+            outdir,
+            f"contact-{start//12+1}.jpg",
+        ),
+        "JPEG",
+        quality=90
+    )
+PY
+
+else
+    echo "CONTACT_SHEET_ERROR=Install ImageMagick or Pillow" | tee -a "$LOG"
+fi
+
+mapfile -d '' SHEET_IMAGES < <(
+    find "$SHEETS" -type f -iname '*.jpg' -print0 2>/dev/null
+)
+
+echo "CONTACT_SHEETS_COUNT=${#SHEET_IMAGES[@]}" | tee -a "$LOG"
+
+# ------------------------------------------------------------
+# 3. YKSITTÄISTEN KUVIEN ANALYYSI
+# ------------------------------------------------------------
+
+rm -f "$RESULTS"/discovery-*.json
+
+N=0
+
+for IMG in "${IMAGES[@]}"; do
+
+    N=$((N+1))
+    NAME="$(basename "$IMG")"
+    OUT="$RESULTS/discovery-$N.json"
+
+    echo "[$N/${#IMAGES[@]}] $NAME" | tee -a "$LOG"
+
+    python3 - "$IMG" "$OUT" "$MODEL" "$OPENAI_API_KEY" <<'PY'
+import sys,os,json,base64,urllib.request,datetime
+
+img,out,model,key=sys.argv[1:]
+
+with open(img,"rb") as f:
+    b64=base64.b64encode(f.read()).decode()
+
+st=os.stat(img)
+
+metadata={
+    "filename":os.path.basename(img),
+    "size_bytes":st.st_size,
+    "modified":datetime.datetime.fromtimestamp(st.st_mtime).isoformat()
+}
+
+prompt="""You are DaemeonAI's visual discovery agent.
+
+Analyze this image as a possible source of a technical idea.
+
+Do NOT require visible source code.
+
+Inspect:
+applications,
+Android UI,
+Termux,
+terminals,
+files,
+folders,
+buttons,
+errors,
+configuration,
+text,
+websites,
+diagrams,
+devices,
+development tools,
+automation,
+and anything that could suggest software work.
+
+Return JSON ONLY:
+
+{
+ "summary": "...",
+ "visual_type": "...",
+ "technical_clues": [],
+ "visible_text": [],
+ "possible_software_task": "...",
+ "possible_language": "...",
+ "potential": 0.0,
+ "needs_more_investigation": true
+}
+
+Use potential 0.0-1.0.
+Do not invent commands, paths, credentials or code."""
+
+payload={
+ "model":model,
+ "input":[{
+  "role":"user",
+  "content":[
+   {
+    "type":"input_text",
+    "text":prompt+
+      "\n\nFILE METADATA:\n"+
+      json.dumps(metadata,ensure_ascii=False)
+   },
+   {
+    "type":"input_image",
+    "image_url":"data:image/jpeg;base64,"+b64,
+    "detail":"high"
+   }
+  ]
+ }]
+}
+
+try:
+
+    req=urllib.request.Request(
+        "https://api.openai.com/v1/responses",
+        data=json.dumps(payload).encode(),
+        headers={
+            "Authorization":"Bearer "+key,
+            "Content-Type":"application/json"
+        }
+    )
+
+    with urllib.request.urlopen(req,timeout=180) as r:
+        response=json.load(r)
+
+    text=response.get("output_text","").strip()
+      if not text:
+          parts=[]
+          for item in response.get("output",[]) or []:
+              for content in item.get("content",[]) or []:
+                  if isinstance(content,dict) and content.get("text"):
+                      parts.append(str(content["text"]))
+          text="\\n".join(parts).strip()
+
+    try:
+        analysis=json.loads(text)
+    except Exception:
+        analysis={
+            "parse_error":True,
+            "raw_output":text
+        }
+
+    result={
+        "source":metadata,
+        "analysis":analysis
+    }
+
+except Exception as e:
+
+    result={
+        "source":metadata,
+        "error":str(e)
+    }
+
+with open(out,"w",encoding="utf-8") as f:
+    json.dump(result,f,ensure_ascii=False,indent=2)
+PY
+
+done
+
+# ------------------------------------------------------------
+# 4. ANALYSOI YHDISTETYT KONTAKTIKUVAT
+# ------------------------------------------------------------
+
+rm -f "$RESULTS"/combined-*.json
+
+SN=0
+
+for SHEET in "${SHEET_IMAGES[@]}"; do
+
+    SN=$((SN+1))
+    OUT="$RESULTS/combined-$SN.json"
+
+    echo "[COMBINED $SN/${#SHEET_IMAGES[@]}] $(basename "$SHEET")" \
+        | tee -a "$LOG"
+
+    python3 - "$SHEET" "$OUT" "$MODEL" "$OPENAI_API_KEY" <<'PY'
+import sys,os,json,base64,urllib.request
+
+img,out,model,key=sys.argv[1:]
+
+with open(img,"rb") as f:
+    b64=base64.b64encode(f.read()).decode()
+
+prompt="""You are DaemeonAI's MULTI-IMAGE correlation agent.
+
+This image is a contact sheet containing several gallery images.
+
+Analyze the images TOGETHER.
+
+Look for relationships between images:
+- same application
+- same project
+- same terminal
+- same error
+- same codebase
+- before/after states
+- repeated configuration
+- related filenames
+- workflow sequences
+- screenshots belonging to one technical problem
+- multiple pieces that could form one larger technical task
+
+The images may individually look unrelated but collectively reveal a task.
+
+Return JSON ONLY:
+
+{
+ "relationship_found": true,
+ "group_summary": "...",
+ "related_elements": [],
+ "possible_project": "...",
+ "possible_problem": "...",
+ "possible_software_task": "...",
+ "likely_language": "...",
+ "confidence": 0.0
+}
+
+Do not invent code, paths, credentials or system state."""
+
+payload={
+ "model":model,
+ "input":[{
+  "role":"user",
+  "content":[
+   {"type":"input_text","text":prompt},
+   {
+    "type":"input_image",
+    "image_url":"data:image/jpeg;base64,"+b64,
+    "detail":"high"
+   }
+  ]
+ }]
+}
+
+try:
+
+    req=urllib.request.Request(
+        "https://api.openai.com/v1/responses",
+        data=json.dumps(payload).encode(),
+        headers={
+            "Authorization":"Bearer "+key,
+            "Content-Type":"application/json"
+        }
+    )
+
+    with urllib.request.urlopen(req,timeout=180) as r:
+        response=json.load(r)
+
+    text=response.get("output_text","").strip()
+      if not text:
+          parts=[]
+          for item in response.get("output",[]) or []:
+              for content in item.get("content",[]) or []:
+                  if isinstance(content,dict) and content.get("text"):
+                      parts.append(str(content["text"]))
+          text="\\n".join(parts).strip()
+
+    try:
+        analysis=json.loads(text)
+    except Exception:
+        analysis={
+            "parse_error":True,
+            "raw_output":text
+        }
+
+except Exception as e:
+    analysis={
+        "api_error":str(e)
+    }
+
+with open(out,"w",encoding="utf-8") as f:
+    json.dump({
+        "contact_sheet":img,
+        "analysis":analysis
+    },f,ensure_ascii=False,indent=2)
+PY
+
+done
+
+# ------------------------------------------------------------
+# 5. YHDISTÄ YKSITTÄISET + KONTAKTIKUVAT
+# ------------------------------------------------------------
+
+echo "=== SYNTHESIS ===" | tee -a "$LOG"
+
+python3 - "$RESULTS" "$OPP/potential-opportunity.json" "$MODEL" "$OPENAI_API_KEY" <<'PY'
+import os,sys,json,urllib.request,datetime
+
+results,out,model,key=sys.argv[1:]
+
+evidence=[]
+
+for name in sorted(os.listdir(results)):
+
+    if not (
+        name.startswith("discovery-") or
+        name.startswith("combined-")
+    ):
+        continue
+
+    if not name.endswith(".json"):
+        continue
+
+    try:
+        d=json.load(
+            open(
+                os.path.join(results,name),
+                encoding="utf-8"
+            )
+        )
+
+        evidence.append({
+            "source_file":name,
+            "analysis":d.get("analysis",{})
+        })
+
+    except Exception:
+        pass
+
+prompt="""You are DaemeonAI's final technical opportunity synthesis agent.
+
+You receive:
+1. individual image observations
+2. multi-image contact-sheet observations
+
+Find a concrete software-development opportunity that can reasonably
+be investigated.
+
+IMPORTANT:
+- Combine evidence across images.
+- A useful opportunity does NOT require visible source code.
+- Filenames and visual context can establish relationships.
+- Contact-sheet observations are especially important.
+- Do not invent missing technical facts.
+- Do not execute anything.
+- Do not modify files.
+- Do not make payments.
+- This output is only a proposal.
+
+Return JSON ONLY:
+
+{
+ "opportunity_found": true,
+ "title": "...",
+ "problem": "...",
+ "why_the_images_are_related": "...",
+ "evidence": [],
+ "related_images": [],
+ "proposed_task": "...",
+ "language": "...",
+ "workspace": "...",
+ "test_plan": "...",
+ "confidence": 0.0
+}
+
+If the evidence is genuinely insufficient:
+opportunity_found=false.
+
+EVIDENCE:
+"""+json.dumps(
+    evidence,
+    ensure_ascii=False,
+    indent=2
+)
+
+payload={
+ "model":model,
+ "input":[{
+  "role":"user",
+  "content":[
+   {
+    "type":"input_text",
+    "text":prompt
+   }
+  ]
+ }]
+}
+
+try:
+
+    req=urllib.request.Request(
+        "https://api.openai.com/v1/responses",
+        data=json.dumps(payload).encode(),
+        headers={
+            "Authorization":"Bearer "+key,
+            "Content-Type":"application/json"
+        }
+    )
+
+    with urllib.request.urlopen(req,timeout=180) as r:
+        response=json.load(r)
+
+    text=response.get("output_text","").strip()
+      if not text:
+          parts=[]
+          for item in response.get("output",[]) or []:
+              for content in item.get("content",[]) or []:
+                  if isinstance(content,dict) and content.get("text"):
+                      parts.append(str(content["text"]))
+          text="\\n".join(parts).strip()
+
+    try:
+        final=json.loads(text)
+    except Exception:
+        final={
+            "opportunity_found":False,
+            "parse_error":True,
+            "raw_response":text
+        }
+
+except Exception as e:
+
+    final={
+        "opportunity_found":False,
+        "api_error":str(e)
+    }
+
+final["generated_at"]=datetime.datetime.now().isoformat()
+final["model"]=model
+final["evidence_items"]=len(evidence)
+final["contact_sheets"]=len([
+    x for x in os.listdir(results)
+    if x.startswith("combined-")
+])
+
+with open(out,"w",encoding="utf-8") as f:
+    json.dump(
+        final,
+        f,
+        ensure_ascii=False,
+        indent=2
+    )
+
+print(json.dumps(final,ensure_ascii=False,indent=2))
+PY
+
+# ------------------------------------------------------------
+# 6. MUODOSTA HYVÄKSYNTÄJONO
+# ------------------------------------------------------------
+
+if python3 - "$OPP/potential-opportunity.json" <<'PY'
+import json,sys
+
+d=json.load(open(sys.argv[1],encoding="utf-8"))
+
+raise SystemExit(
+    0 if d.get("opportunity_found") else 1
+)
+PY
+then
+
+    TS="$(date +%Y%m%d-%H%M%S)"
+    Q="$QUEUE/image-opportunity-$TS.json"
+
+    python3 - "$OPP/potential-opportunity.json" "$Q" <<'PY'
+import json,sys
+
+src,dst=sys.argv[1:]
+
+opp=json.load(
+    open(src,encoding="utf-8")
+)
+
+queue={
+    "operation":"IMAGE_OPPORTUNITY",
+    "status":"PENDING_APPROVAL",
+    "human_approval_required":True,
+    "execution_allowed":False,
+    "write_allowed":False,
+    "payment_execution":False,
+    "source":"gallery+combined_images",
+    "opportunity":opp
+}
+
+with open(dst,"w",encoding="utf-8") as f:
+    json.dump(
+        queue,
+        f,
+        ensure_ascii=False,
+        indent=2
+    )
+
+print("QUEUED="+dst)
+PY
+
+else
+
+    echo "NO_OPPORTUNITY"
+
+fi
+
+echo "=== DISCOVERY COMPLETE ==="

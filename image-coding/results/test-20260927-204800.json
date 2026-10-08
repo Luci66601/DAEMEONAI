@@ -1,0 +1,102 @@
+{
+  "id": "resp_00622d38445f975e006ab956d246c087d2b6af5fb58616d032",
+  "object": "response",
+  "created_at": 1790531282,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1790531284,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_00622d38445f975e006ab956d37b1087d29207dcac99ffe5fb",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABquVbVbmBSYU1PXgfCp6XlE4L7vthPLS4CdccXxzyeFs-LbDw-d_Q-W7kBqOlqTwO7iZJAPexDOBsmxXBnX7mgy8yYJpCwSA6HmBtGiaQnNQ17Y_eiZTyvQHqp-uuoQKDdCgje0DOih3ssPlcEljV7SlW2paqx1FHstohn82z2PgUJcxrSMYQw9oxXPa1F9EUG9Ovp-xsapKBVHZN2GysdV2iIy2adCUBxpjeG1pVPbOsR9dTiNIZ2G3oicYGMahqMi5l6D-u0dwSBGsm4OjH_8t2W-hdbRi5VtbqRn-05U2SFIXoD9NhFHUp4jv3EwJS_qGQBzKbZQryznk787gH4frYtfxfiS6Oq1bNM7ldbBMT1yfMZByX1uP_dl014kYWh5OJlJTyt3fca82wfoACU1rArsO-FKiF9VI_tm_RdifwgFspa3iotlg_zU59s_CYdu1d_0wGut8EbdHIbfNydSD9LyYqentpbW2lJYtYW_Gp9lc5pL_EQWA1I7dPxJ-8DzsF_-K2PmCmt3gEF7qo70Bpxg73gLwQja-IjRssZTQ1ryyGivkaOcne3BlMTpm57fI0sPQAPH0NbqoGON5CYJTWZUPMTWgyAAsMB_xb6Uw-ByLR3pOz0NgRSl43ZYGJx_UsOIf7S72RklNC3Qj7tJHsjrkYncowSK44EX4bU7jaLBYP0fHjqe0snf4uHYrtx9RnP7NWuIcO7q3HB-TYYBW7grtUnRtfZtzepArNMGGuk1WihX91eVe8m0sBBZfVx3KucgviVWJIkYGCRxM6EaiyupCqTG87K_LZt2bwAEEpcAajrFFC4n5Cf1Jr2D4wOsyLAubf73Cm5tsmm74nMvhlPD047DPDS_YNsfI_gNQrOFajKLlgyBqBqHR4tePKcK9mrFqrCMk48h2ijudl012TqOVnKWDgap1-TCX7ZKVzSa9V6yFsg-rvIokMgxpRPLDaVcx7X948S1SQ3ftGFi02uIC_Abq_TTR3TEzRaIEjmWczA2WuK5R97jc2uOkSMYp_1zPwjVGpG6YlkEoU2_QcbS-n5ySfVWlAeqzPdVmIellwcWrB_1Is10kLFFvHOJNHYUbKWHReKkJ-52hCcyCjKICkFgj0XroDLe1nTTAaCz_yb5ltJbprod6UF62W6LLisv0TvARJ7Lbk02UzSOBhLLkoSlycE4cZUYkn9hqjA4bO7uMkEh1Q4U8mVpKUWUZDUQhzSAQPKgRXZR7v4TPcMHxmXuWPPnoWUS4E8M_TJMCumaoTnArUGUUSLF5EsVjGKftZixIi0exJJOFz3X7cvckLXQ7JNWtqGotzYnLWRQw3tJ_h8EfNLR3O7vrMDGb46R_kK52CCjcZZJ84uIk6NSj0jw2Wh5V82GO9qxq0VIU6YL33hw9LlAsA1y6zgnD1lr-O840oRigC1CLiCEkg3La0D46ya6rYS2RcntgL_a6Ax8jYVxdKdVNMV5GIxf02C3YUTpihSI6yAt2nnKanW9v3lotwkM8n59KtLwJ2Tzf0v4UmshiAed_e9ij_tr7Yp",
+      "summary": []
+    },
+    {
+      "id": "msg_00622d38445f975e006ab956d3f78887d28d9b058c2d63e6bc",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"summary\": \"The image contains centered italic text reading \\\"DaemeonAI IMAGE CODING TEST\\\" on a plain white background. No source code, terminal output, UI controls, diagrams, architecture, or technical error details are visible.\",\n  \"detected_errors\": [],\n  \"relevant_code\": [],\n  \"proposed_fix\": \"No software fix can be proposed based on the visible content.\",\n  \"files_to_inspect\": [],\n  \"tests_to_run\": [],\n  \"confidence\": 0.99\n}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 553,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 725
+  },
+  "user": null,
+  "metadata": {}
+}

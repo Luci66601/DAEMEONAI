@@ -1,0 +1,42 @@
+{
+  "source": {
+    "filename": "65913.jpg",
+    "size_bytes": 32640,
+    "modified": "2026-09-27T20:50:25.830000"
+  },
+  "analysis": {
+    "summary": "An Android social-media video displays a mobile Google search over a terminal window. The search results appear related to a website called North Star and public camera, OSINT, or real-time information visualization.",
+    "visual_type": "Android phone screenshot of a social-media video with Google search results and a terminal in the background",
+    "technical_clues": [
+      "Mobile Google search interface",
+      "Search query appears to reference North Star or nstar.live",
+      "Search result title includes \"North Star - Camera Globe, OSINT, Crypto, NetSc...\"",
+      "Search snippet describes a public demonstration or early prototype",
+      "Terminal window with command-line text visible behind the browser",
+      "Possible focus on public cameras, geospatial visualization, OSINT, or live data",
+      "Android status bar and navigation controls visible"
+    ],
+    "visible_text": [
+      "AI Mode",
+      "Images",
+      "Videos",
+      "Shopping",
+      "News",
+      "Forums",
+      "South Pasadena, CA",
+      "North Star - Camera Globe, OSINT, Crypto, NetSc...",
+      "North Star is a public demonstration - an early prototype that's live today and...",
+      "Contact",
+      "About",
+      "Privacy Policy",
+      "AND YOU WANNA",
+      "Being out in public isn't as private as you think",
+      "Gotta pay for that, shit ain't free",
+      "Lisää kommentti..."
+    ],
+    "possible_software_task": "Investigate or prototype a web application for visualizing public cameras, geospatial data, or OSINT information in real time, potentially supported by command-line development tools.",
+    "possible_language": "Not determinable from the image; the terminal suggests a command-line development environment, but no readable source code or language-specific syntax is visible.",
+    "potential": 0.78,
+    "needs_more_investigation": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": {
+    "filename": "65134.jpg",
+    "size_bytes": 36804,
+    "modified": "2026-09-27T20:50:25.690000"
+  },
+  "analysis": {
+    "summary": "A smartphone screenshot of a Messenger-style conversation in Finnish, with the on-screen keyboard open. The content is personal messaging and does not show a clear technical or software-development task.",
+    "visual_type": "Android messaging application screenshot",
+    "technical_clues": [
+      "Android status bar and navigation controls",
+      "Chat interface with call, video, information, reaction, and attachment buttons",
+      "On-screen Finnish keyboard with predictive text enabled"
+    ],
+    "visible_text": [
+      "Inkeri Kaarto",
+      "Aktiivinen tällä hetkellä",
+      "Soita takaisin",
+      "Hheii! Sori kun otan tälle ihan puskista...",
+      "Sori huomasin vast ny viestin, ilmoon sil heti",
+      "Toimitettu",
+      "Viesti",
+      "Coop"
+    ],
+    "possible_software_task": "No specific software task is evident; the image primarily documents a personal chat conversation.",
+    "possible_language": "Finnish",
+    "potential": 0.01,
+    "needs_more_investigation": false
+  }
+}

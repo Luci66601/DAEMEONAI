@@ -1,0 +1,47 @@
+{
+  "source": {
+    "filename": "66360.jpg",
+    "size_bytes": 37641,
+    "modified": "2026-09-27T20:50:26.670000"
+  },
+  "analysis": {
+    "summary": "Android Google Play Store search results for \"hbo max\" in dark mode. The HBO Max app is shown as installed on multiple devices, with controls to open or remove it.",
+    "visual_type": "Android app store interface screenshot",
+    "technical_clues": [
+      "Google Play Store search and app listing UI",
+      "HBO Max application listing",
+      "Application installation status across devices",
+      "Multiple Android device entries",
+      "Buttons for opening and removing the app",
+      "App ratings, review counts, age guidance, and download counts"
+    ],
+    "visible_text": [
+      "hbo max",
+      "SkyShowtime: ...",
+      "SkyShowtime",
+      "Asenna",
+      "Ostoja sovelluksessa",
+      "4,6",
+      "108 t. arvostelua",
+      "Vanhempien valvonnassa",
+      "10 milj.+ Lataukset",
+      "Koko perheen viihde etuhintaan",
+      "HBO Max: Sarjoja j...",
+      "Asennettu",
+      "Avaa",
+      "Asennettu kaikille laitteille",
+      "ONEPLUS A6013",
+      "Poista",
+      "Samsung SM-G96...",
+      "Pelit",
+      "Sovell...",
+      "Haku",
+      "Kirjat",
+      "Sinä"
+    ],
+    "possible_software_task": "Potentially automate or analyze Android app discovery, installation status, and multi-device app management through the Google Play Store.",
+    "possible_language": "Not determinable from the image; no source code or programming language is visible.",
+    "potential": 0.18,
+    "needs_more_investigation": true
+  }
+}

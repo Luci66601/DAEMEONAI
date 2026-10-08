@@ -1,0 +1,28 @@
+{
+  "source": {
+    "filename": "61209.jpg",
+    "size_bytes": 54505,
+    "modified": "2026-09-27T20:50:26.350000"
+  },
+  "analysis": {
+    "summary": "Kuva esittää suomenkielistä oikeudellista tekstiä, jossa käsitellään syytekohdan 3 rangaistuksen koventamisperustetta ja rikosuhrimaksua.",
+    "visual_type": "Oikeudellinen asiakirja tai esitysdia",
+    "technical_clues": [
+      "Teksti viittaa rikoslakiin ja rangaistuksen mittaamiseen.",
+      "Asiakokonaisuus sisältää otsikoita, lakiviittauksen ja euromääräisen maksun.",
+      "Ei näkyviä sovelluksia, käyttöliittymiä, tiedostoja, komentoja tai ohjelmointiin liittyviä elementtejä."
+    ],
+    "visible_text": [
+      "SYYTTÄJÄN MUUT VAATIMUKSET",
+      "Koventamisperuste syytekohdassa 3",
+      "Vastaajalle rangaistusta mitattaessa on koventamisperusteena otettava huomioon hänen aikaisempi rikollisuutensa, koska sen ja uuden rikoksen suhde osoittaa hänessä ilmeistä piittaamattomuutta lain kielloista ja käskyistä. Koskee kaikkia syytekohtia.",
+      "Rikoslaki 6 luku 5 § (2015/564)",
+      "Rikosuhrimaksu syytekohdassa 3",
+      "Vastaaja on velvoitettava suorittamaan rikosuhrimaksu 80 euroa."
+    ],
+    "possible_software_task": "Suomenkielisen lakitekstin OCR-tunnistus, asiakirjaluokittelu tai oikeudellisen sisällön poiminta.",
+    "possible_language": "Suomi",
+    "potential": 0.12,
+    "needs_more_investigation": true
+  }
+}

@@ -1,0 +1,306 @@
+# Purpose: Extract code from gallery images and run
+
+
+#!/usr/bin/env bash
+
+# DAEMEONAI CENTRAL GEMINI ENV
+if [ -r "/data/data/com.termux/files/home/daemeonai/lib/central-ai-env.sh" ]; then . "/data/data/com.termux/files/home/daemeonai/lib/central-ai-env.sh"; fi
+. "${DAEMEONAI_HOME:-$HOME/daemeonai}/lib/central-openai-env.sh"
+set -Eeuo pipefail
+
+BASE="${DAEMEON_IMAGE_BASE:-${DAEMEONAI_HOME:-$HOME/daemeonai}/image-coding}"
+GALLERY="$BASE/gallery"
+RESULTS="$BASE/results"
+CANDIDATES="$BASE/candidates"
+LOG="$BASE/logs/gallery-code-runner.log"
+TURBO="${DAEMEONAI_HOME:-$HOME/daemeonai}/localhost/errorbot/turbo.sh"
+MODEL="${GEMINI_MODEL:-gemini-3.8-flash}"
+TEST_MODE="${TEST_MODE:-false}"
+APPROVE_IMAGE_CODE="${APPROVE_IMAGE_CODE:-}"
+
+umask 077
+mkdir -p "$GALLERY" "$RESULTS" "$CANDIDATES" "$BASE/logs"
+
+echo "=== DAEMEONAI GALLERY CODE SCANNER ===" | tee -a "$LOG"
+
+# Kopioi JPEG:t Android-galleriasta työskentelykansioon.
+find /sdcard/DCIM /sdcard/Pictures /sdcard/Download \
+  -type f \( -iname '*.jpg' -o -iname '*.jpeg' \) \
+  -print0 2>/dev/null |
+while IFS= read -r -d '' f; do
+  cp -n -- "$f" "$GALLERY/$(basename -- "$f")" 2>/dev/null || true
+done
+
+COUNT="$(
+  find "$GALLERY" -type f \( -iname '*.jpg' -o -iname '*.jpeg' \) \
+    -print 2>/dev/null | wc -l | tr -d '[:space:]'
+)"
+COUNT="${COUNT:-0}"
+echo "JPEG_COUNT=$COUNT" | tee -a "$LOG"
+
+if [[ "$COUNT" -eq 0 ]]; then
+  echo "Ei JPEG-kuvia löytynyt." | tee -a "$LOG"
+  exit 2
+fi
+
+if [[ -z "${GEMINI_API_KEY:-}" ]]; then
+  echo "GEMINI_API_KEY puuttuu." | tee -a "$LOG"
+  exit 7
+fi
+
+python3 - "$GALLERY" "$RESULTS" "$MODEL" <<'PY'
+import base64
+import json
+import mimetypes
+import os
+import sys
+import tempfile
+import urllib.error
+import urllib.request
+
+gallery, results, model = sys.argv[1:]
+key = os.environ.get("GEMINI_API_KEY", "")
+
+files = []
+for root, _, names in os.walk(gallery):
+    for name in names:
+        if name.lower().endswith((".jpg", ".jpeg")):
+            files.append(os.path.join(root, name))
+files.sort()
+
+analyses = []
+
+for path in files:
+    try:
+        with open(path, "rb") as image_file:
+            encoded = base64.b64encode(image_file.read()).decode("ascii")
+
+        mime_type = mimetypes.guess_type(path)[0] or "image/jpeg"
+        payload = {
+            "model": model,
+            "input": [{
+                "role": "user",
+                "content": [
+                    {
+                        "type": "input_text",
+                        "text": """Inspect this image specifically for visible Bash/Linux/Termux/programming code.
+Extract only code that is actually visible.
+Determine whether it appears syntactically coherent.
+Return JSON with:
+filename,
+has_code,
+language,
+code,
+explanation,
+confidence.
+Do not invent missing code."""
+                    },
+                    {
+                        "type": "input_image",
+                        "image_url": "data:" + mime_type + ";base64," + encoded
+                    }
+                ]
+            }]
+        }
+
+        request = urllib.request.Request(
+            "https://generativelanguage.googleapis.com/v1beta/openai//responses",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Authorization": "Bearer " + key,
+                "Content-Type": "application/json"
+            }
+        )
+
+        with urllib.request.urlopen(request, timeout=180) as response:
+            raw = json.load(response)
+
+        text = raw.get("output_text", "")
+        if not isinstance(text, str):
+            text = ""
+
+        parsed = None
+        if text.strip():
+            try:
+                parsed = json.loads(text)
+            except (TypeError, ValueError):
+                parsed = None
+
+        if not isinstance(parsed, dict):
+            parsed = {
+                "filename": os.path.basename(path),
+                "has_code": False,
+                "language": "",
+                "code": "",
+                "explanation": text,
+                "confidence": 0
+            }
+
+        parsed["source"] = path
+        analyses.append(parsed)
+
+    except Exception as exc:
+        analyses.append({
+            "filename": os.path.basename(path),
+            "source": path,
+            "has_code": False,
+            "code": "",
+            "error": str(exc),
+            "confidence": 0
+        })
+
+output_path = os.path.join(results, "gallery-analysis.json")
+directory = os.path.dirname(output_path)
+fd, temporary_path = tempfile.mkstemp(
+    prefix=".gallery-analysis.",
+    suffix=".json",
+    dir=directory
+)
+try:
+    with os.fdopen(fd, "w", encoding="utf-8") as output_file:
+        json.dump(analyses, output_file, ensure_ascii=False, indent=2)
+        output_file.write("\n")
+    os.replace(temporary_path, output_path)
+finally:
+    if os.path.exists(temporary_path):
+        os.unlink(temporary_path)
+
+print(output_path)
+PY
+
+python3 - "$RESULTS/gallery-analysis.json" "$CANDIDATES/image-selected.sh" <<'PY'
+import json
+import os
+import re
+import sys
+import tempfile
+
+source_path, output_path = sys.argv[1:]
+
+with open(source_path, encoding="utf-8") as source_file:
+    data = json.load(source_file)
+
+valid = []
+for item in data:
+    if not isinstance(item, dict):
+        continue
+
+    code = item.get("code", "")
+    has_code = item.get("has_code") is True
+    if not has_code or not isinstance(code, str) or not code.strip():
+        continue
+
+    try:
+        confidence = float(item.get("confidence") or 0)
+    except (TypeError, ValueError):
+        confidence = 0.0
+
+    if confidence != confidence:
+        confidence = 0.0
+
+    valid.append((confidence, len(code), item))
+
+if not valid:
+    print("NO_VALID_CODE")
+    raise SystemExit(3)
+
+valid.sort(key=lambda entry: (entry[0], entry[1]), reverse=True)
+selected = valid[0][2]
+code = selected["code"].strip()
+
+# Poistetaan mahdolliset markdown-aidat vain koodin alusta ja lopusta.
+code = re.sub(
+    r"^\s*```(?:bash|sh|shell)?\s*\n?",
+    "",
+    code,
+    count=1,
+    flags=re.IGNORECASE
+)
+code = re.sub(r"\n?\s*```\s*$", "", code, count=1)
+
+header = (
+    "#!/usr/bin/env bash\n"
+    "set -Eeuo pipefail\n\n"
+    "# Generated from gallery image: "
+    + str(selected.get("filename", "unknown"))
+    + "\n"
+    "# Candidate only; syntax checked before execution.\n\n"
+)
+
+directory = os.path.dirname(output_path)
+fd, temporary_path = tempfile.mkstemp(
+    prefix=".image-selected.",
+    suffix=".sh",
+    dir=directory
+)
+try:
+    with os.fdopen(fd, "w", encoding="utf-8") as output_file:
+        output_file.write(header)
+        output_file.write(code)
+        output_file.write("\n")
+    os.chmod(temporary_path, 0o700)
+    os.replace(temporary_path, output_path)
+finally:
+    if os.path.exists(temporary_path):
+        os.unlink(temporary_path)
+
+print("SELECTED_IMAGE=" + str(selected.get("filename", "unknown")))
+print("CANDIDATE=" + output_path)
+print("CONFIDENCE=" + str(selected.get("confidence", 0)))
+PY
+
+CANDIDATE="$CANDIDATES/image-selected.sh"
+
+if [[ ! -s "$CANDIDATE" ]]; then
+  echo "NO_CODE_CANDIDATE" | tee -a "$LOG"
+  exit 4
+fi
+
+echo "=== SYNTAX CHECK ===" | tee -a "$LOG"
+
+if ! bash -n "$CANDIDATE" >>"$LOG" 2>&1; then
+  echo "SYNTAX_FAILED" | tee -a "$LOG"
+
+  if [[ -x "$TURBO" ]]; then
+    nohup "$TURBO" >"$BASE/logs/turbo-from-image.log" 2>&1 &
+    echo "TURBO_STARTED_PID=$!" | tee -a "$LOG"
+  fi
+
+  exit 5
+fi
+
+echo "SYNTAX_OK" | tee -a "$LOG"
+
+case "${TEST_MODE,,}" in
+  1|true|yes|on)
+    echo "TEST_MODE_ENABLED_EXECUTION_SKIPPED" | tee -a "$LOG"
+    exit 0
+    ;;
+esac
+
+if [[ "$APPROVE_IMAGE_CODE" != "YES" ]]; then
+  echo "MANUAL_APPROVAL_REQUIRED_SET_APPROVE_IMAGE_CODE=YES" | tee -a "$LOG"
+  exit 6
+fi
+
+echo "=== EXECUTION ===" | tee -a "$LOG"
+
+WORK="$BASE/candidates/runtime"
+mkdir -p "$WORK"
+
+if timeout 120s bash "$CANDIDATE" >"$WORK/stdout.log" 2>"$WORK/stderr.log"; then
+  echo "EXECUTION_OK" | tee -a "$LOG"
+  exit 0
+else
+  RC=$?
+  echo "EXECUTION_FAILED_RC=$RC" | tee -a "$LOG"
+
+  if [[ -x "$TURBO" ]]; then
+    nohup "$TURBO" >"$BASE/logs/turbo-from-image.log" 2>&1 &
+    echo "TURBO_STARTED_PID=$!" | tee -a "$LOG"
+  else
+    echo "TURBO_NOT_FOUND=$TURBO" | tee -a "$LOG"
+  fi
+
+  exit "$RC"
+fi

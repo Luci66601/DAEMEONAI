@@ -1,0 +1,33 @@
+{
+  "source": {
+    "filename": "66892.jpg",
+    "size_bytes": 37913,
+    "modified": "2026-09-27T20:50:26.960000"
+  },
+  "analysis": {
+    "summary": "Android screenshot of the Facebook app in Finnish, showing a community post asking about positive or negative experiences with betting/gambling and a sponsored Skin.Club advertisement promoting an Elite Bot.",
+    "visual_type": "Android mobile app screenshot",
+    "technical_clues": [
+      "Facebook mobile interface",
+      "Sponsored advertisement for an 'Elite Bot'",
+      "Possible software automation or bot-related service",
+      "Finnish-language social media content"
+    ],
+    "visible_text": [
+      "facebook",
+      "Lisää kaveri",
+      "Poista",
+      "Näytä kaikki",
+      "Kysy mitä vaan - muut vast...",
+      "Oletko ollut alko- tai huu...katkolla? millaisia hyviä ja huonoja kokemuksia sinulla on.",
+      "Skin.Club",
+      "Sponsoroitu",
+      "Join the Skin.Club Elite Bot!",
+      "18+"
+    ],
+    "possible_software_task": "Investigate or design a bot/automation service similar to the advertised Skin.Club Elite Bot, subject to platform rules and applicable gambling or gaming regulations.",
+    "possible_language": "No programming language is identifiable; the user-facing text is primarily Finnish with English advertising text.",
+    "potential": 0.42,
+    "needs_more_investigation": true
+  }
+}
