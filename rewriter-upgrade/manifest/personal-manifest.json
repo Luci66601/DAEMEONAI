@@ -1,0 +1,25 @@
+{
+  "name": "personal-rewriter-upgrade",
+  "command": "#rewriter upgrade",
+  "version": "1.0.0",
+  "runtime": "bash-5.3",
+  "api": {
+    "provider": "openai",
+    "key_source": "OPENAI_API_KEY",
+    "store_key": false,
+    "print_key": false
+  },
+  "paths": {
+    "root": "$HOME/daemeonai/rewriter-upgrade",
+    "requests": "requests",
+    "responses": "responses",
+    "logs": "logs"
+  },
+  "policy": {
+    "modify_existing_files": false,
+    "create_backup": true,
+    "auto_execute_generated_code": false,
+    "require_manual_approval": true
+  },
+  "purpose": "Personal manifest for controlled rewriter upgrades"
+}
