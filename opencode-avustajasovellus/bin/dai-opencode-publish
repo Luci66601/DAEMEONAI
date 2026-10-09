@@ -89,7 +89,6 @@ if [ "$CHANGED_COUNT" -eq 0 ]; then
     exit 0
 fi
 
-REPO_FILE_LIMIT="${DAEMEONAI_REPO_FILE_LIMIT:-10}"
 DAILY_LIMIT_SCRIPT="$HOME/daemeonai/ai/adapters/daily-file-limit.sh"
 
 if [ "$CHANGED_COUNT" -lt 1 ]; then
@@ -97,18 +96,13 @@ if [ "$CHANGED_COUNT" -lt 1 ]; then
     exit 1
 fi
 
-if [ "$CHANGED_COUNT" -gt "$REPO_FILE_LIMIT" ]; then
-    echo "FAIL: more than $REPO_FILE_LIMIT files would be published for this repo"
-    exit 1
-fi
-
-echo "PASS: repo publication limit allows $CHANGED_COUNT/$REPO_FILE_LIMIT files"
+echo "FILE_LIMIT=DISABLED"
 echo
-echo "--- 6B. DAILY FILE + PUBLICATION LIMIT ---"
+echo "--- 6B. DAILY PUBLICATION LIMIT ---"
 if "$DAILY_LIMIT_SCRIPT" "$CHANGED_COUNT" 1; then
     echo "PASS: daily limits allow this publication"
 else
-    echo "FAIL: daily file/publication limit exceeded"
+    echo "FAIL: daily publication limit exceeded"
     exit 1
 fi
 

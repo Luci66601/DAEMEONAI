@@ -24,33 +24,12 @@ echo "=== DaemeonAI OpenCode DAILY UPDATE ==="
 echo "DATE=$DATE"
 echo "STAMP=$STAMP"
 
-DAILY_LIMIT="${DAEMEONAI_DAILY_FILE_LIMIT:-50}"
+DAILY_LIMIT="DISABLED"
 PUBLICATION_LIMIT="${DAEMEONAI_DAILY_PUBLICATION_LIMIT:-5}"
-
 USED=0
-if [ -f "$LIMIT_FILE" ]; then
-    STATE_DATE="$(sed -n '1p' "$LIMIT_FILE" 2>/dev/null || true)"
-    STATE_COUNT="$(sed -n '2p' "$LIMIT_FILE" 2>/dev/null || echo 0)"
-    if [ "$STATE_DATE" = "$DATE" ]; then
-        USED="$STATE_COUNT"
-    fi
-    case "$USED" in
-        ''|*[!0-9]*) USED=0 ;;
-    esac
-fi
-
-REMAINING=$((DAILY_LIMIT - USED))
-
-echo "DAILY_LIMIT=$DAILY_LIMIT"
-echo "FILES_USED_TODAY=$USED"
-echo "FILES_REMAINING=$REMAINING"
-
-if [ "$REMAINING" -le 0 ]; then
-    echo "DAILY_LIMIT_REACHED=YES"
-    printf 'DATE=%s\nSTATUS=DAILY_LIMIT_REACHED\nFILES_USED=%s\n' "$DATE" "$USED" > "$RESULT"
-    chmod 600 "$RESULT"
-    exit 0
-fi
+REMAINING="unlimited"
+echo "FILE_LIMIT=DISABLED"
+echo "PUBLICATION_LIMIT=$PUBLICATION_LIMIT"
 
 if [ ! -x "$OPENCODE_WRAPPER" ]; then
     echo "ERROR=OpenCode wrapper missing: $OPENCODE_WRAPPER"
@@ -103,8 +82,8 @@ Do not treat it as the daily source of truth.
 3. Do not invent unrelated features.
 4. Inspect existing code before modifying it.
 5. Make the smallest safe repair.
-6. Maximum 10 files per publication; maximum 50 files and 5 publications per calendar day.
-7. Never exceed the remaining daily file budget supplied in the snapshot.
+6. No file-count limit; maximum 5 GitHub publications per calendar day.
+7. Do not impose a file-count limit; preserve safety, tests, and publication gates.
 8. Never expose API keys, tokens, credentials or secret values.
 9. Never perform destructive operations.
 10. Never use rm, dd, mkfs, reboot, shutdown or equivalent destructive operations.

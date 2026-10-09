@@ -114,10 +114,10 @@ echo
 echo "--- DAILY LIMIT ---"
 LIMIT="$BASE/ai/adapters/daily-file-limit.sh"
 LIMIT_OUT="$("$LIMIT" 10 2>&1)" || true
-if printf "%s\n" "$LIMIT_OUT" | grep -q "REQUESTED=10" && printf "%s\n" "$LIMIT_OUT" | grep -q "LIMIT=50"; then
-    pass "daily limit is 50 files"
+if printf "%s\n" "$LIMIT_OUT" | grep -q "FILE_LIMIT=DISABLED"; then
+    pass "file-count limit is disabled"
 else
-    fail "daily limit configuration is not 50"
+    fail "file-count limit is still enabled"
 fi
 if printf "%s\n" "$LIMIT_OUT" | grep -q "PUBLICATION_LIMIT=5"; then
     pass "publication limit is 5 per day"
